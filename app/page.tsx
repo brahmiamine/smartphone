@@ -16,7 +16,9 @@ import { filterPhones } from "@/lib/filters";
 import { rankPhones } from "@/lib/scoring";
 import type { PhoneFilters, RankedPhone, Weights } from "@/lib/types";
 
-const PAGE_SIZE = 20;
+const MOBILE_QUERY = "(max-width: 800px)";
+const DESKTOP_PAGE_SIZE = 20;
+const MOBILE_PAGE_SIZE = 10;
 
 function isValidWeights(value: unknown): value is Weights {
   if (!value || typeof value !== "object") return false;
@@ -38,6 +40,7 @@ export default function Home() {
   const [filters, setFilters] = useState<PhoneFilters>(DEFAULT_FILTERS);
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(DESKTOP_PAGE_SIZE);
   const [detailId, setDetailId] = useState<string | null>(null);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [compareOpen, setCompareOpen] = useState(false);
@@ -68,14 +71,23 @@ export default function Home() {
     }
   }, [weights, filters, hydrated]);
 
+  useEffect(() => {
+    const mediaQuery = window.matchMedia(MOBILE_QUERY);
+    const applyPageSize = (isMobile: boolean) => { setPageSize(isMobile ? MOBILE_PAGE_SIZE : DESKTOP_PAGE_SIZE); setPage(1); };
+    applyPageSize(mediaQuery.matches);
+    const handleChange = (event: MediaQueryListEvent) => applyPageSize(event.matches);
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
+
   const eligiblePhones = useMemo(() => filterPhones(PHONES, filters), [filters]);
   const ranked = useMemo(() => rankPhones(eligiblePhones, weights), [eligiblePhones, weights]);
   const filtered = useMemo(() => {
     const normalized = query.trim().toLowerCase();
     return normalized ? ranked.filter((phone) => `${phone.name} ${phone.brand} ${phone.performance.chipset}`.toLowerCase().includes(normalized)) : ranked;
   }, [ranked, query]);
-  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-  const visiblePhones = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const pageCount = Math.max(1, Math.ceil(filtered.length / pageSize));
+  const visiblePhones = filtered.slice((page - 1) * pageSize, page * pageSize);
   const detailPhone = ranked.find((phone) => phone.id === detailId) ?? null;
   const comparedPhones = ranked.filter((phone) => selectedIds.has(phone.id));
 
@@ -101,8 +113,6 @@ export default function Home() {
           <FilterPanel filters={filters} onChange={(next) => { setFilters(next); setPage(1); }} resultCount={eligiblePhones.length} />
         </div>
         <div className="results-panel">
-          <div className="results-heading"><div><span className="eyebrow"><Activity /> Classement en direct</span><h1>Votre meilleur smartphone, selon vos règles.</h1></div><div className="catalog-count"><strong>{PHONES.length}</strong><span>modèles analysés</span></div></div>
-          {ranked.length ? <div className="podium-grid">{ranked.slice(0, 3).map((phone, index) => <PhoneCard phone={phone} position={index + 1} onDetail={() => openDetail(phone)} key={phone.id} />)}</div> : <div className="empty-podium"><Filter /><strong>Aucun téléphone ne correspond aux filtres.</strong></div>}
           <RankingSection
             phones={visiblePhones}
             query={query}
@@ -114,9 +124,14 @@ export default function Home() {
             onDetail={openDetail}
             page={page}
             pageCount={pageCount}
+            pageSize={pageSize}
             total={filtered.length}
             onPageChange={changePage}
           />
+          <section className="live-ranking">
+            <div className="results-heading"><div><span className="eyebrow"><Activity /> Classement en direct</span><h1>Votre meilleur smartphone, selon vos règles.</h1></div><div className="catalog-count"><strong>{PHONES.length}</strong><span>modèles analysés</span></div></div>
+            {ranked.length ? <div className="podium-grid">{ranked.slice(0, 3).map((phone, index) => <PhoneCard phone={phone} position={index + 1} onDetail={() => openDetail(phone)} key={phone.id} />)}</div> : <div className="empty-podium"><Filter /><strong>Aucun téléphone ne correspond aux filtres.</strong></div>}
+          </section>
           <BenchmarkSection />
         </div>
       </section>
