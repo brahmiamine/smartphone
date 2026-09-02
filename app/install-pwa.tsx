@@ -17,15 +17,18 @@ export function InstallPWA() {
     if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
       navigator.serviceWorker.register("/smartphone/sw.js");
     }
-    const standalone = window.matchMedia("(display-mode: standalone)").matches || (navigator as Navigator & { standalone?: boolean }).standalone;
-    setInstalled(Boolean(standalone));
+    const updateInstalled = () => setInstalled(Boolean(window.matchMedia("(display-mode: standalone)").matches || (navigator as Navigator & { standalone?: boolean }).standalone));
+    queueMicrotask(updateInstalled);
     const capture = (event: Event) => {
       event.preventDefault();
       setPrompt(event as InstallPromptEvent);
     };
     window.addEventListener("beforeinstallprompt", capture);
-    window.addEventListener("appinstalled", () => setInstalled(true));
-    return () => window.removeEventListener("beforeinstallprompt", capture);
+    window.addEventListener("appinstalled", updateInstalled);
+    return () => {
+      window.removeEventListener("beforeinstallprompt", capture);
+      window.removeEventListener("appinstalled", updateInstalled);
+    };
   }, []);
 
   const install = async () => {

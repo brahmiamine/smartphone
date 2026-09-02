@@ -1,47 +1,46 @@
-import { BatteryCharging, Camera, Cpu, Gauge, Info, MemoryStick, MonitorSmartphone, ShieldCheck } from "lucide-react";
+import { BatteryCharging, Camera, Cpu, Database, Gauge, Info, MemoryStick, MonitorSmartphone, ShieldCheck } from "lucide-react";
 import scales from "@/data/scales.json";
 import { PHONES } from "@/lib/catalog";
-import { capacityScore, cpuScore, ramScore } from "@/lib/scoring";
+import { autonomyScore, chargingScore, durabilityScore, multitaskingScore, performanceScore, screenScore, storageScore } from "@/lib/scoring";
 import { IndexCard, type IndexItem } from "./index-card";
 
-const scoreItems = (items: Array<[string, number]>, detail: string): IndexItem[] => items.map(([label, score]) => ({ label, score, detail }));
+const bestBy = (key: (phone: (typeof PHONES)[number]) => string, score: (phone: (typeof PHONES)[number]) => number, detail: (phone: (typeof PHONES)[number]) => string) => {
+  const map = new Map<string, (typeof PHONES)[number]>();
+  for (const phone of PHONES) if (!map.has(key(phone)) || score(phone) > score(map.get(key(phone))!)) map.set(key(phone), phone);
+  return [...map.entries()].map(([label, phone]) => ({ label, score: score(phone), detail: detail(phone) })).sort((a, b) => b.score - a.score);
+};
+
+const points = (values: number[][], suffix: string, detail: string): IndexItem[] => values.map(([value, score]) => ({ label: `${value.toLocaleString("fr-FR")}${suffix}`, score, detail }));
 
 export function BenchmarkSection() {
-  const battery = Array.from(new Set(PHONES.map((phone) => phone.battery.capacityMah))).sort((a, b) => b - a)
-    .map((capacity) => ({ label: `${capacity.toLocaleString("fr-FR")} mAh`, score: capacityScore(capacity), detail: `${PHONES.filter((phone) => phone.battery.capacityMah === capacity).length} modèle(s)` }));
-  const cpu = Array.from(new Set(PHONES.map((phone) => phone.performance.chipset))).map((chipset) => {
-    const phone = PHONES.filter((item) => item.performance.chipset === chipset).sort((a, b) => b.performance.antutu - a.performance.antutu)[0];
-    return { label: chipset, score: cpuScore(phone), detail: `${(phone.performance.antutu / 1_000_000).toFixed(2)} M AnTuTu` };
-  }).sort((a, b) => b.score - a.score);
-  const ram = Array.from(new Set(PHONES.map((phone) => phone.performance.ramGB))).sort((a, b) => b - a)
-    .map((value) => ({ label: `${value} Go`, score: ramScore(value), detail: "mémoire vive" }));
-  const camera = scoreItems([
-    ...scales.camera.mainMegapixels.map(([value, score]) => [`Principal ${value} Mpx`, score] as [string, number]),
-    ["Zoom optique 3×", 65], ["Zoom optique 5×", 100], ["Stabilisation OIS", 100],
-  ], "repère caméra");
-  const screen = scoreItems([
-    ...scales.screen.refreshRate.map(([value, score]) => [`${value} Hz`, score] as [string, number]),
-    ["1 800 nits", 80], ["2 500 nits", 91],
-    ...Object.entries(scales.screen.panelScores).map(([panel, score]) => [panel, score] as [string, number]),
-  ], "repère écran");
-  const durability = scoreItems([
-    ["IP49", scales.durability.ipScores.IP49], ["IP65", scales.durability.ipScores.IP65], ["IP68", scales.durability.ipScores.IP68], ["IP69", scales.durability.ipScores.IP69], ["IP69K", scales.durability.ipScores.IP69K],
-    ...scales.durability.dropMeters.slice(1).map(([value, score]) => [`Chute ${value} m`, score] as [string, number]),
-    ["Verre Premium", scales.durability.glassScores.Premium], ["Verre certifié chutes", scales.durability.glassScores["Certifié chutes"]],
-  ], "repère résistance");
+  const performance = bestBy(phone => phone.performance.chipset, performanceScore, phone => `${phone.performance.sustainedPercent ?? "—"}% soutenu`);
+  const multitasking = bestBy(phone => `${phone.os} · ${phone.performance.ramGB} Go`, multitaskingScore, phone => `barème ${phone.os}`);
+  const autonomy = bestBy(phone => `${phone.battery.activeUseHours ?? "—"} h actives`, autonomyScore, phone => `${phone.battery.capacityMah.toLocaleString("fr-FR")} mAh · ${phone.battery.autonomyBasis}`);
+  const charging = bestBy(phone => `${phone.battery.chargeMinutes ?? "—"} min · ${phone.battery.wiredW} W`, chargingScore, phone => `${phone.battery.wirelessW} W sans fil`);
+  const camera: IndexItem[] = [
+    { label: "Photo", score: scales.camera.subWeights.photo, detail: "55 % du score caméra" },
+    { label: "Vidéo", score: scales.camera.subWeights.video, detail: "30 % du score caméra" },
+    { label: "Selfie", score: scales.camera.subWeights.selfie, detail: "15 % du score caméra" },
+    ...points(scales.camera.opticalZoom, "×", "repère matériel zoom"),
+  ];
+  const screen = bestBy(phone => `${Math.round(Math.sqrt(phone.screen.widthPx ** 2 + phone.screen.heightPx ** 2) / phone.screen.diagonal)} ppp · ${phone.screen.refreshHz} Hz`, screenScore, phone => `${phone.screen.brightnessNits} nits ${phone.screen.brightnessBasis.toLowerCase()}`);
+  const durability = bestBy(phone => `${phone.durability.ip} · réparabilité ${phone.durability.repairabilityScore ?? "—"}`, durabilityScore, phone => phone.durability.dropMeters ? `chute ${phone.durability.dropMeters} m` : "chute non documentée");
+  const storage = bestBy(phone => `${phone.performance.storage.capacityGB} Go · ${phone.performance.storage.type}`, storageScore, phone => phone.performance.storage.expandable ? "extensible" : "non extensible");
 
   return (
     <section className="indices-section">
-      <div className="indices-heading"><div><span className="eyebrow"><Gauge /> Barèmes vérifiables</span><h2>Comprendre chaque indice</h2></div><p>Toutes les références viennent de <code>data/scales.json</code>. Les valeurs intermédiaires sont interpolées entre les repères.</p></div>
+      <div className="indices-heading"><div><span className="eyebrow"><Gauge /> Barèmes vérifiables</span><h2>Comprendre les huit indices</h2></div><p>Les sous-scores utilisent les mêmes courbes pour tout le catalogue. Les mesures absentes restent inconnues et les estimations sont signalées dans chaque fiche.</p></div>
       <div className="indices-grid all-scales">
-        <IndexCard title="Batteries" icon={<BatteryCharging />} items={battery} />
-        <IndexCard title="Processeurs" icon={<Cpu />} items={cpu} />
-        <IndexCard title="Mémoires RAM" icon={<MemoryStick />} items={ram} />
-        <IndexCard title="Caméras" icon={<Camera />} items={camera} />
-        <IndexCard title="Écrans" icon={<MonitorSmartphone />} items={screen} />
+        <IndexCard title="Performances" icon={<Cpu />} items={performance} />
+        <IndexCard title="Multitâche / RAM" icon={<MemoryStick />} items={multitasking} />
+        <IndexCard title="Autonomie" icon={<Gauge />} items={autonomy} />
+        <IndexCard title="Recharge" icon={<BatteryCharging />} items={charging} />
+        <IndexCard title="Caméra" icon={<Camera />} items={camera} />
+        <IndexCard title="Écran" icon={<MonitorSmartphone />} items={screen} />
         <IndexCard title="Résistance" icon={<ShieldCheck />} items={durability} />
+        <IndexCard title="Stockage" icon={<Database />} items={storage} />
       </div>
-      <p className="method-note"><Info /> Avec Batterie à 100 %, le classement repose uniquement sur la capacité : 11 000 mAh devance toujours 10 000 mAh. La puissance de charge reste affichée comme caractéristique informative.</p>
+      <p className="method-note"><Info /> L’autonomie privilégie les heures d’usage actif (70 %), puis la capacité (20 %) et les cycles de batterie (10 %). Le niveau de confiance n’ajoute ni ne retire de points : il indique seulement la fiabilité des données.</p>
     </section>
   );
 }

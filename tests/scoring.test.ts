@@ -1,42 +1,74 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import scales from "@/data/scales.json";
 import { PHONES } from "@/lib/catalog";
-import { capacityScore, rankPhones, scorePhone } from "@/lib/scoring";
-import type { Weights } from "@/lib/types";
+import { DEFAULT_FILTERS, DEFAULT_WEIGHTS, criterionKeys, updateWeightKeepingTotal } from "@/lib/config";
+import { filterPhones } from "@/lib/filters";
+import { interpolate, rankPhones, scorePhone, validateScale } from "@/lib/scoring";
+import type { CriterionKey, Points, Weights } from "@/lib/scoring";
 
-test("la plus grande batterie gagne lorsque Batterie vaut 100 %", () => {
-  const weights: Weights = { cpu: 0, ram: 0, battery: 100, camera: 0, screen: 0, durability: 0 };
-  const ranking = rankPhones(PHONES, weights);
-  const largestCapacity = Math.max(...PHONES.map((phone) => phone.battery.capacityMah));
-  assert.equal(ranking[0].battery.capacityMah, largestCapacity);
-  assert.equal(ranking[0].name, "HONOR X80 Pro Max");
+const only = (key: CriterionKey): Weights => criterionKeys.reduce((weights, criterion) => ({ ...weights, [criterion]: criterion === key ? 100 : 0 }), {} as Weights);
+
+test("les pondérations restent exactement à 100 %", () => {
+  for (const key of criterionKeys) {
+    for (let value = 0; value <= 100; value += 1) {
+      const weights = updateWeightKeepingTotal(DEFAULT_WEIGHTS, key, value);
+      assert.equal(Object.values(weights).reduce((sum, weight) => sum + weight, 0), 100);
+      assert.ok(Object.values(weights).every((weight) => Number.isInteger(weight) && weight >= 0));
+    }
+  }
 });
 
-test("les repères batterie demandés restent stables", () => {
-  assert.equal(capacityScore(7000), 80);
-  assert.equal(capacityScore(8000), 80);
-  assert.equal(capacityScore(10000), 95);
-  assert.equal(capacityScore(11000), 100);
+test("l'autonomie à 100 % privilégie la durée active", () => {
+  const ranking = rankPhones(PHONES, only("autonomy"));
+  const maximum = Math.max(...PHONES.map((phone) => phone.battery.activeUseHours ?? 0));
+  assert.equal(ranking[0].battery.activeUseHours, maximum);
 });
 
-test("les 15 modèles recherchés sont présents et calculables", () => {
-  const expectedIds = [
-    "huawei-pura-80-ultra", "vivo-x300-pro", "oppo-find-x9-ultra", "vivo-x300-ultra",
-    "google-pixel-11-pro-xl", "oppo-find-x8-ultra", "apple-iphone-17-pro", "vivo-x200-ultra",
-    "xiaomi-17-ultra", "motorola-razr-fold", "motorola-signature", "google-pixel-10-pro-xl",
-    "huawei-pura-70-ultra", "apple-iphone-16-pro-max", "google-pixel-9-pro-xl",
+test("une donnée inconnue ne reçoit aucun plancher artificiel", () => {
+  assert.equal(interpolate(null, [[1, 40], [2, 80]]), null);
+  assert.throws(() => validateScale([]), /au moins deux repères/);
+  assert.throws(() => validateScale([[2, 50], [1, 70]]), /croissant/);
+});
+
+test("les barèmes numériques sont monotones", () => {
+  const numericScales = [
+    scales.performance.androidBenchmark, scales.performance.iosBenchmark, scales.performance.sustainedPercent,
+    scales.ram.android, scales.ram.ios, scales.autonomy.activeUseHours, scales.autonomy.capacityMah,
+    scales.autonomy.cyclesTo80, scales.charging.wiredW, scales.charging.wirelessW,
+    scales.screen.ppi, scales.screen.refreshRate, scales.screen.brightness, scales.storage.capacityGB,
   ];
-  const ids = new Set(PHONES.map((phone) => phone.id));
-  assert.equal(PHONES.length, 38);
-  assert.equal(ids.size, PHONES.length);
+  for (const scale of numericScales) {
+    validateScale(scale as Points);
+    for (let index = 1; index < scale.length; index += 1) assert.ok(scale[index][1] >= scale[index - 1][1]);
+  }
+});
 
-  for (const id of expectedIds) {
-    const phone = PHONES.find((item) => item.id === id);
-    assert.ok(phone, `${id} doit être présent`);
-    assert.ok(phone.sourceUrl, `${id} doit avoir une fiche constructeur`);
-    assert.ok(phone.cameraLabUrl, `${id} doit avoir un test caméra`);
-    const result = scorePhone(phone, { cpu: 20, ram: 10, battery: 25, camera: 25, screen: 10, durability: 10 });
-    assert.ok(Number.isFinite(result.total), `${id} doit avoir un score fini`);
-    assert.ok(Object.values(result.categoryScores).every(Number.isFinite), `${id} doit avoir six indices finis`);
+test("les filtres essentiels se combinent", () => {
+  const ios = filterPhones(PHONES, { ...DEFAULT_FILTERS, os: "iOS", esimOnly: true });
+  assert.ok(ios.length > 0);
+  assert.ok(ios.every((phone) => phone.os === "iOS" && phone.connectivity.esim));
+  const foldables = filterPhones(PHONES, { ...DEFAULT_FILTERS, formFactor: "Pliable" });
+  assert.ok(foldables.length > 0);
+  assert.ok(foldables.every((phone) => phone.formFactor === "Pliable"));
+});
+
+test("le catalogue 2024–2026 est unique, sourcé et calculable", () => {
+  assert.ok(PHONES.length >= 60);
+  assert.equal(new Set(PHONES.map((phone) => phone.id)).size, PHONES.length);
+  assert.deepEqual([...new Set(PHONES.map((phone) => phone.releaseYear))].sort(), [2024, 2025, 2026]);
+  for (const phone of PHONES) {
+    assert.ok(phone.sources.length > 0, `${phone.name} doit avoir une source`);
+    assert.ok(phone.dataQuality.confidence >= 0 && phone.dataQuality.confidence <= 100);
+    const result = scorePhone(phone, DEFAULT_WEIGHTS);
+    assert.ok(Number.isFinite(result.total), `${phone.name} doit avoir un score fini`);
+    assert.ok(Object.values(result.categoryScores).every((score) => score >= 0 && score <= 100));
+  }
+});
+
+test("chaque critère à 100 % classe selon son propre indice", () => {
+  for (const key of criterionKeys) {
+    const ranking = rankPhones(PHONES, only(key));
+    for (let index = 1; index < ranking.length; index += 1) assert.ok(ranking[index - 1].categoryScores[key] >= ranking[index].categoryScores[key]);
   }
 });

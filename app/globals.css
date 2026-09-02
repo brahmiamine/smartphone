@@ -71,7 +71,8 @@ button, input { font: inherit; }
 .install-button { height: 42px; border-radius: 12px; background: white; color: #28324a; }
 
 .workspace { max-width: 1540px; margin: 0 auto; padding: 34px clamp(20px, 4vw, 64px) 64px; display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 36px; align-items: start; }
-.weight-panel { background: #151d31; color: white; border-radius: 24px; padding: 24px; position: sticky; top: 108px; box-shadow: 0 20px 55px rgba(18,27,48,.17); overflow: hidden; }
+.control-column { position: sticky; top: 92px; display: grid; gap: 14px; max-height: calc(100vh - 106px); overflow-y: auto; padding: 0 4px 16px 0; scrollbar-width: thin; }
+.weight-panel { background: #151d31; color: white; border-radius: 24px; padding: 24px; position: relative; box-shadow: 0 20px 55px rgba(18,27,48,.17); overflow: hidden; }
 .weight-panel::before { content: ""; position: absolute; width: 180px; height: 180px; border-radius: 50%; background: rgba(119,87,255,.28); filter: blur(2px); right: -110px; top: -90px; }
 .panel-heading, .panel-heading > div, .weight-label, .weight-label span { display: flex; align-items: center; }
 .panel-heading { justify-content: space-between; position: relative; }
@@ -99,6 +100,20 @@ button, input { font: inherit; }
 .formula-note strong { display: block; color: #eef2fa; margin-bottom: 2px; }
 .reset-button { width: 100%; margin-top: 12px; color: #9aa6bf; }
 .reset-button:hover { background: #202a43; color: white; }
+.filter-panel { border: 1px solid var(--border); border-radius: 18px; background: white; padding: 17px; box-shadow: 0 8px 24px rgba(25,34,55,.05); }
+.filter-heading, .filter-heading > div { display: flex; align-items: center; }
+.filter-heading { justify-content: space-between; gap: 10px; margin-bottom: 14px; }
+.filter-heading > div { gap: 7px; }
+.filter-heading svg { width: 16px; color: #7757ff; }
+.filter-heading strong { font-size: 14px; }
+.filter-heading > span { border-radius: 8px; background: #edf0f6; padding: 4px 7px; color: #687188; font-size: 10px; font-weight: 750; }
+.filter-grid { display: grid; gap: 9px; }
+.filter-grid label { display: grid; grid-template-columns: 18px 1fr; align-items: center; gap: 3px 6px; color: #667086; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+.filter-grid label > svg { width: 14px; color: #8a93a6; }
+.filter-grid select { grid-column: 1 / -1; width: 100%; height: 38px; border: 1px solid #dce1ea; border-radius: 10px; background: #f8f9fb; padding: 0 10px; color: #273149; font-size: 12px; text-transform: none; letter-spacing: normal; }
+.filter-checks { display: grid; gap: 9px; margin: 13px 0 4px; padding-top: 13px; border-top: 1px solid #eceff4; }
+.filter-checks label { display: flex; align-items: center; gap: 8px; color: #4f5a70; font-size: 12px; cursor: pointer; }
+.filter-panel > button { width: 100%; margin-top: 10px; }
 
 .results-panel { min-width: 0; }
 .results-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin: 4px 0 25px; }
@@ -109,6 +124,8 @@ button, input { font: inherit; }
 .catalog-count strong { font-size: 30px; line-height: 1; }
 .catalog-count span { font-size: 12px; color: var(--muted-foreground); margin-top: 4px; }
 .podium-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.empty-podium { min-height: 150px; border: 1px dashed #cfd5e1; border-radius: 20px; display: grid; place-content: center; justify-items: center; gap: 8px; color: #687188; background: white; }
+.empty-podium svg { width: 24px; color: #7757ff; }
 .podium-card { border-radius: 21px; background: white; border: 1px solid var(--border); padding: 19px; box-shadow: 0 9px 28px rgba(25,34,55,.06); min-width: 0; transition: transform .22s ease, box-shadow .22s ease; }
 .podium-card:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(25,34,55,.1); }
 .podium-card.rank-1 { background: linear-gradient(145deg, #1a2339, #11182a); color: white; border-color: #28334c; box-shadow: 0 16px 42px rgba(22,31,51,.2); }
@@ -135,6 +152,8 @@ button, input { font: inherit; }
 .mini-specs span { display: inline-flex; align-items: center; gap: 4px; background: #f3f5f9; color: #5f687c; border-radius: 8px; padding: 6px 7px; font-size: 10px; }
 .mini-specs svg { width: 12px; }
 .rank-1 .mini-specs span { background: #242f49; color: #c4ccdb; }
+.stability-note { margin: 10px 0 0; color: #7e8799; font-size: 9px; font-weight: 650; }
+.rank-1 .stability-note { color: #aeb8ce; }
 .detail-link { width: 100%; border: 0; border-top: 1px solid #e8ebf1; background: transparent; margin-top: 16px; padding: 13px 0 0; display: flex; align-items: center; justify-content: space-between; color: #4d3fbd; font-size: 12px; font-weight: 700; cursor: pointer; }
 .detail-link svg { width: 15px; transition: transform .2s ease; }
 .detail-link:hover svg { transform: translateX(3px); }
@@ -168,9 +187,10 @@ button, input { font: inherit; }
 .score-chip { --chip: #7757ff; min-width: 47px; height: 34px; padding: 3px 6px; display: grid; place-items: center; border-radius: 8px; color: var(--chip); background: color-mix(in srgb, var(--chip) 10%, white); font-variant-numeric: tabular-nums; }
 .score-chip small { font-size: 7px; line-height: 1; letter-spacing: .06em; opacity: .72; }
 .score-chip strong { font-size: 10px; line-height: 1; }
-.row-score { display: flex; align-items: baseline; gap: 2px; justify-content: end; }
+.row-score { display: grid; grid-template-columns: auto auto; align-items: baseline; gap: 0 2px; justify-content: end; text-align: right; }
 .row-score strong { font-size: 18px; font-variant-numeric: tabular-nums; }
 .row-score span { color: #8a93a5; font-size: 10px; }
+.row-score small { grid-column: 1 / -1; color: #8b75da; font-size: 8px; font-weight: 700; }
 .empty-state { padding: 50px; display: grid; place-items: center; text-align: center; color: #7e8799; }
 .empty-state svg { width: 27px; margin-bottom: 10px; }
 .empty-state strong { color: #27324a; }
@@ -259,7 +279,8 @@ button, input { font: inherit; }
   .brand-lockup span { display: none; }
   .install-button { padding-inline: 12px; }
   .workspace { display: block; padding-top: 20px; }
-  .weight-panel { position: relative; top: auto; border-radius: 20px; }
+  .control-column { position: relative; top: auto; max-height: none; overflow: visible; padding: 0; }
+  .weight-panel { border-radius: 20px; }
   .results-panel { margin-top: 29px; }
   .results-heading { align-items: start; }
   .results-heading h1 { font-size: 30px; }

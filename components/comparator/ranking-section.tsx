@@ -34,9 +34,9 @@ export function RankingSection({ phones, query, onQueryChange, selectedIds, onTo
           <article className={`ranking-row ${selectedIds.has(phone.id) ? "is-selected" : ""}`} key={phone.id}>
             <div className="row-select"><Checkbox checked={selectedIds.has(phone.id)} onCheckedChange={() => onToggle(phone.id)} aria-label={`Sélectionner ${phone.name}`} /></div>
             <div className={`row-rank ${phone.rank <= 3 ? "is-top" : ""}`}>{phone.rank}</div>
-            <div className="phone-identity"><strong>{phone.name}</strong><span>{phone.performance.chipset} · {phone.battery.capacityMah.toLocaleString("fr-FR")} mAh</span></div>
+            <div className="phone-identity"><strong>{phone.name}</strong><span>{phone.os} · {phone.formFactor} · {phone.battery.activeUseHours ?? "—"} h actives</span></div>
             <div className="score-chips">{criterionKeys.map((key) => <ScoreChip criterion={key} value={phone.categoryScores[key]} key={key} />)}</div>
-            <div className="row-score"><strong>{phone.total.toFixed(1)}</strong><span>/100</span></div>
+            <div className="row-score" title={`Confiance des données : ${phone.confidence}%`}><strong>{phone.total.toFixed(1)}</strong><span>/100</span><small>{phone.confidence}% fiable{phone.closeToPrevious ? " · écart faible" : ""}</small></div>
             <Button variant="ghost" size="icon" aria-label={`Voir ${phone.name}`} onClick={() => onDetail(phone)}><ChevronRight /></Button>
           </article>
         ))}

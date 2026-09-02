@@ -1,472 +1,101 @@
 [
   {
-    "id": "honor-magic8-pro",
-    "name": "HONOR Magic8 Pro",
-    "brand": "HONOR",
-    "release": "Oct. 2025",
-    "market": "Chine",
-    "sourceUrl": "https://www.honor.com/global/news/honor-magic8-china-launch/",
+    "id": "google-pixel-11-pro-xl",
+    "name": "Google Pixel 11 Pro XL",
+    "brand": "Google",
+    "release": "Août 2026",
+    "releaseYear": 2026,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://store.google.com/product/pixel_11_pro_specs?hl=fr",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-11-Pro-XL",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://store.google.com/product/pixel_11_pro_specs?hl=fr",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Google/Pixel-11-Pro-XL",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 83,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5",
-      "antutu": 4200000,
+      "chipset": "Google Tensor G6",
+      "antutu": 1850000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 16,
-      "storage": "UFS 4.1",
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS zonée",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
-      "capacityMah": 7200,
-      "wiredW": 120,
-      "wirelessW": 80,
-      "technology": "Silicium-carbone"
+      "capacityMah": 5115,
+      "activeUseHours": 18.8,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 45,
+      "wirelessW": 25,
+      "chargeMinutes": 46,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
     },
     "camera": {
       "mainMP": 50,
       "sensorDenominator": 1.3,
-      "ultrawideMP": 50,
-      "teleZoom": 3.7,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 120,
-      "dxomark": 164
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.71,
-      "widthPx": 1256,
-      "heightPx": 2808,
-      "refreshHz": 120,
-      "brightnessNits": 4000,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP69K",
-      "dropMeters": 2.5,
-      "glass": "Certifié chutes",
-      "label": "SGS 5 étoiles, NanoCrystal Shield"
-    }
-  },
-  {
-    "id": "honor-win",
-    "name": "HONOR Win",
-    "brand": "HONOR",
-    "release": "Déc. 2025",
-    "market": "Chine",
-    "sourceUrl": "https://www.huaweicentral.com/honor-win-series-launched-with-10000mah-battery-built-in-cooling-fan-and-185hz-display/",
-    "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5",
-      "antutu": 4250000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Refroidissement actif"
-    },
-    "battery": {
-      "capacityMah": 10000,
-      "wiredW": 100,
-      "wirelessW": 80,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.56,
-      "ultrawideMP": 12,
-      "teleZoom": 3,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 60,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.83,
-      "widthPx": 1272,
-      "heightPx": 2800,
-      "refreshHz": 185,
-      "brightnessNits": 2000,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69K",
-      "dropMeters": 1.5,
-      "glass": "Renforcé",
-      "label": "IP68, IP69 et IP69K"
-    }
-  },
-  {
-    "id": "redmi-k100-pro-max",
-    "name": "Redmi K100 Pro Max",
-    "brand": "Redmi",
-    "release": "Août 2026",
-    "market": "Chine",
-    "sourceUrl": "https://www.gizmochina.com/2026/08/13/redmi-k100-pro-max-global-availability-price-specs/",
-    "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5",
-      "antutu": 4200000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 9070,
-      "wiredW": 100,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 200,
-      "sensorDenominator": 1.4,
-      "ultrawideMP": 50,
+      "ultrawideMP": 48,
       "teleZoom": 5,
-      "selfieMP": 32,
+      "selfieMP": 42,
       "ois": true,
       "videoK": 8,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": 168,
+      "dxomarkProtocol": "V6",
+      "photoIndex": 100,
+      "videoIndex": 92,
+      "selfieIndex": 89.3,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.9,
-      "widthPx": 1200,
-      "heightPx": 2608,
-      "refreshHz": 185,
-      "brightnessNits": 2500,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69",
-      "dropMeters": 1.5,
-      "glass": "Premium",
-      "label": "IP66, IP68 et IP69"
-    }
-  },
-  {
-    "id": "xiaomi-17-pro-max",
-    "name": "Xiaomi 17 Pro Max",
-    "brand": "Xiaomi",
-    "release": "Sept. 2025",
-    "market": "Chine",
-    "sourceUrl": "https://www.mi.com/global/discover/article?id=5471",
-    "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5",
-      "antutu": 4150000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 7500,
-      "wiredW": 100,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.28,
-      "ultrawideMP": 50,
-      "teleZoom": 5,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 120,
-      "dxomark": 159
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.9,
-      "widthPx": 1200,
-      "heightPx": 2608,
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1344,
+      "heightPx": 2992,
       "refreshHz": 120,
-      "brightnessNits": 3500,
-      "ltpo": true
+      "brightnessNits": 3600,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP68",
-      "dropMeters": 1.5,
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, Dragon Crystal Glass 3"
-    }
-  },
-  {
-    "id": "oppo-find-x9-pro",
-    "name": "OPPO Find X9 Pro",
-    "brand": "OPPO",
-    "release": "Oct. 2025",
-    "market": "Global",
-    "sourceUrl": "https://www.oppo.com/uk/smartphones/series-find-x/find-x9-pro/",
-    "performance": {
-      "chipset": "Dimensity 9500",
-      "antutu": 3900000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 7500,
-      "wiredW": 80,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.28,
-      "ultrawideMP": 50,
-      "teleZoom": 3,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 120,
-      "dxomark": 166
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.78,
-      "widthPx": 1272,
-      "heightPx": 2772,
-      "refreshHz": 120,
-      "brightnessNits": 3600,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP69",
-      "dropMeters": 1.5,
-      "glass": "Premium",
-      "label": "IP66, IP68 et IP69"
-    }
-  },
-  {
-    "id": "oneplus-15",
-    "name": "OnePlus 15",
-    "brand": "OnePlus",
-    "release": "Nov. 2025",
-    "market": "Global",
-    "sourceUrl": "https://www.oneplus.com/global/15",
-    "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5",
-      "antutu": 4100000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 7300,
-      "wiredW": 120,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.56,
-      "ultrawideMP": 50,
-      "teleZoom": 3.5,
-      "selfieMP": 32,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 120,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.78,
-      "widthPx": 1272,
-      "heightPx": 2772,
-      "refreshHz": 165,
-      "brightnessNits": 3600,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP69K",
-      "dropMeters": 2,
-      "glass": "Premium",
-      "label": "IP66, IP68, IP69 et IP69K"
-    }
-  },
-  {
-    "id": "redmi-k90-pro-max",
-    "name": "Redmi K90 Pro Max",
-    "brand": "Redmi",
-    "release": "Oct. 2025",
-    "market": "Chine",
-    "sourceUrl": "https://www.mi.com/prod/redmi-k90-pro-max",
-    "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5",
-      "antutu": 4050000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 7560,
-      "wiredW": 100,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.31,
-      "ultrawideMP": 50,
-      "teleZoom": 5,
-      "selfieMP": 32,
-      "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.9,
-      "widthPx": 1200,
-      "heightPx": 2608,
-      "refreshHz": 120,
-      "brightnessNits": 3500,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP68",
-      "dropMeters": 1.2,
-      "glass": "Premium",
-      "label": "IP68, Dragon Crystal Glass"
-    }
-  },
-  {
-    "id": "honor-win-rt",
-    "name": "HONOR Win RT",
-    "brand": "HONOR",
-    "release": "Déc. 2025",
-    "market": "Chine",
-    "sourceUrl": "https://www.huaweicentral.com/honor-win-rt-here-are-the-full-phone-specifications/",
-    "performance": {
-      "chipset": "Snapdragon 8 Elite",
-      "antutu": 3200000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Refroidissement actif"
-    },
-    "battery": {
-      "capacityMah": 10000,
-      "wiredW": 100,
-      "wirelessW": 0,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.56,
-      "ultrawideMP": 12,
-      "teleZoom": 0,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 60,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.83,
-      "widthPx": 1272,
-      "heightPx": 2800,
-      "refreshHz": 185,
-      "brightnessNits": 2000,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69K",
-      "dropMeters": 1.5,
-      "glass": "Renforcé",
-      "label": "IP68, IP69 et IP69K"
-    }
-  },
-  {
-    "id": "iqoo-neo11-ultra",
-    "name": "iQOO Neo11 Ultra",
-    "brand": "iQOO",
-    "release": "Août 2026",
-    "market": "Chine",
-    "sourceUrl": "https://www.fonearena.com/blog/489811/iqoo-neo11-ultra-price-specifications.html",
-    "performance": {
-      "chipset": "Dimensity 9500M",
-      "antutu": 3950000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 9100,
-      "wiredW": 100,
-      "wirelessW": 0,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.56,
-      "ultrawideMP": 8,
-      "teleZoom": 0,
-      "selfieMP": 16,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 60,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.83,
-      "widthPx": 1440,
-      "heightPx": 3200,
-      "refreshHz": 144,
-      "brightnessNits": 2000,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69",
-      "dropMeters": 1.2,
-      "glass": "Renforcé",
-      "label": "IP68 et IP69"
-    }
-  },
-  {
-    "id": "redmagic-11s-pro",
-    "name": "REDMAGIC 11S Pro",
-    "brand": "REDMAGIC",
-    "release": "Mai 2026",
-    "market": "Chine",
-    "sourceUrl": "https://www.fonearena.com/blog/482930/redmagic-11s-pro-price-specifications.html",
-    "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5 Leading",
-      "antutu": 4300000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Refroidissement actif"
-    },
-    "battery": {
-      "capacityMah": 8000,
-      "wiredW": 80,
-      "wirelessW": 0,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.55,
-      "ultrawideMP": 50,
-      "teleZoom": 0,
-      "selfieMP": 16,
-      "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.85,
-      "widthPx": 1216,
-      "heightPx": 2688,
-      "refreshHz": 144,
-      "brightnessNits": 2000,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IPX8",
-      "dropMeters": 1,
-      "glass": "Renforcé",
-      "label": "Ventilateur IPX8, pas de certification poussière complète"
+      "label": "IP68, Gorilla Glass Victus 2",
+      "repairabilityScore": 74,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -474,19 +103,56 @@
     "name": "HONOR Power 2",
     "brand": "HONOR",
     "release": "Jan. 2026",
+    "releaseYear": 2026,
     "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.huaweicentral.com/honor-power-2-launched-with-10080mah-battery-dimensity-8500-elite/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.huaweicentral.com/honor-power-2-launched-with-10080mah-battery-dimensity-8500-elite/",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Dimensity 8500 Elite",
       "antutu": 2400000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 12,
-      "storage": "UFS 4.1",
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 10080,
+      "activeUseHours": 36,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 80,
       "wirelessW": 0,
+      "chargeMinutes": 50,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -498,7 +164,12 @@
       "ois": true,
       "videoK": 4,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 59.4,
+      "videoIndex": 76,
+      "selfieIndex": 62,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
@@ -507,13 +178,16 @@
       "heightPx": 2640,
       "refreshHz": 120,
       "brightnessNits": 2000,
-      "ltpo": false
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69K",
       "dropMeters": 1.5,
       "glass": "Renforcé",
-      "label": "IP68, IP69 et IP69K"
+      "label": "IP68, IP69 et IP69K",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -521,19 +195,56 @@
     "name": "HONOR Win Turbo",
     "brand": "HONOR",
     "release": "Mai 2026",
+    "releaseYear": 2026,
     "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.gizmochina.com/2026/05/29/honor-win-turbo-10000mah-battery-launch-specs-price/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.gizmochina.com/2026/05/29/honor-win-turbo-10000mah-battery-launch-specs-price/",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Dimensity 8500 Elite",
       "antutu": 2400000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 16,
-      "storage": "UFS 4.1",
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 10000,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 80,
       "wirelessW": 0,
+      "chargeMinutes": 49,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -545,7 +256,12 @@
       "ois": true,
       "videoK": 4,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 59.4,
+      "videoIndex": 76,
+      "selfieIndex": 62,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
@@ -554,107 +270,16 @@
       "heightPx": 2640,
       "refreshHz": 120,
       "brightnessNits": 2000,
-      "ltpo": false
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69K",
       "dropMeters": 1.5,
       "glass": "Renforcé",
-      "label": "IP68, IP69 et IP69K"
-    }
-  },
-  {
-    "id": "realme-p4-power",
-    "name": "Realme P4 Power",
-    "brand": "Realme",
-    "release": "Jan. 2026",
-    "market": "Inde",
-    "sourceUrl": "https://www.realme.com/global/realme-p4-power-5g",
-    "performance": {
-      "chipset": "Dimensity 7400 Ultra",
-      "antutu": 980000,
-      "ramGB": 12,
-      "storage": "UFS 3.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 10001,
-      "wiredW": 80,
-      "wirelessW": 0,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.95,
-      "ultrawideMP": 8,
-      "teleZoom": 0,
-      "selfieMP": 16,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 60,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.8,
-      "widthPx": 1280,
-      "heightPx": 2800,
-      "refreshHz": 144,
-      "brightnessNits": 1800,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69",
-      "dropMeters": 1,
-      "glass": "Renforcé",
-      "label": "IP66, IP68, IP69 et ArmorShell"
-    }
-  },
-  {
-    "id": "realme-narzo-power",
-    "name": "Realme Narzo Power",
-    "brand": "Realme",
-    "release": "Mars 2026",
-    "market": "Inde",
-    "sourceUrl": "https://www.realme.com/in/realme-narzo-power-5g",
-    "performance": {
-      "chipset": "Dimensity 7400 Ultra",
-      "antutu": 980000,
-      "ramGB": 8,
-      "storage": "UFS 3.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 10001,
-      "wiredW": 80,
-      "wirelessW": 0,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.95,
-      "ultrawideMP": 8,
-      "teleZoom": 0,
-      "selfieMP": 16,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 60,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.8,
-      "widthPx": 1280,
-      "heightPx": 2800,
-      "refreshHz": 144,
-      "brightnessNits": 1800,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69",
-      "dropMeters": 1,
-      "glass": "Renforcé",
-      "label": "IP66, IP68, IP69 et ArmorShell"
+      "label": "IP68, IP69 et IP69K",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -662,19 +287,56 @@
     "name": "HONOR X80 Pro Max",
     "brand": "HONOR",
     "release": "Juin 2026",
+    "releaseYear": 2026,
     "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.huaweicentral.com/honor-x80-pro-max-launched/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.huaweicentral.com/honor-x80-pro-max-launched/",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Snapdragon 6 Gen 5",
       "antutu": 1050000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
       "ramGB": 12,
-      "storage": "UFS 3.1",
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
       "cooling": "Standard"
     },
     "battery": {
       "capacityMah": 11000,
+      "activeUseHours": 36,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 90,
       "wirelessW": 0,
+      "chargeMinutes": 49,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -686,7 +348,12 @@
       "ois": true,
       "videoK": 4,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 58.3,
+      "videoIndex": 76,
+      "selfieIndex": 53.6,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
@@ -695,80 +362,73 @@
       "heightPx": 2788,
       "refreshHz": 120,
       "brightnessNits": 2000,
-      "ltpo": true
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69K",
       "dropMeters": 3,
       "glass": "Certifié chutes",
-      "label": "SGS 5 étoiles, chute certifiée jusqu’à 3 m"
+      "label": "SGS 5 étoiles, chute certifiée jusqu’à 3 m",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "vivo-y600-pro",
-    "name": "vivo Y600 Pro",
-    "brand": "vivo",
-    "release": "Avr. 2026",
-    "market": "Chine",
-    "sourceUrl": "https://www.gizmochina.com/2026/04/27/vivo-y600-pro-launched-specs-price/",
-    "performance": {
-      "chipset": "Dimensity 7300e",
-      "antutu": 1000000,
-      "ramGB": 12,
-      "storage": "UFS 3.1",
-      "cooling": "Standard"
-    },
-    "battery": {
-      "capacityMah": 10200,
-      "wiredW": 90,
-      "wirelessW": 0,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.95,
-      "ultrawideMP": 0,
-      "teleZoom": 0,
-      "selfieMP": 32,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 30,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.83,
-      "widthPx": 1260,
-      "heightPx": 2800,
-      "refreshHz": 120,
-      "brightnessNits": 2000,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69K",
-      "dropMeters": 2,
-      "glass": "Certifié chutes",
-      "label": "SGS Gold Label 5 étoiles"
-    }
-  },
-  {
-    "id": "redmi-note-17-pro-max",
-    "name": "Redmi Note 17 Pro Max",
-    "brand": "Redmi",
+    "id": "iqoo-neo11-ultra",
+    "name": "iQOO Neo11 Ultra",
+    "brand": "iQOO",
     "release": "Août 2026",
-    "market": "Asie",
-    "sourceUrl": "https://www.mi.com/global/product/redmi-note-17-pro-max-5g/",
+    "releaseYear": 2026,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.fonearena.com/blog/489811/iqoo-neo11-ultra-price-specifications.html",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.fonearena.com/blog/489811/iqoo-neo11-ultra-price-specifications.html",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
-      "chipset": "Snapdragon 6 Gen 5",
-      "antutu": 1050000,
-      "ramGB": 12,
-      "storage": "UFS 4.0",
-      "cooling": "Standard"
+      "chipset": "Dimensity 9500M",
+      "antutu": 3950000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
     },
     "battery": {
-      "capacityMah": 10000,
+      "capacityMah": 9100,
+      "activeUseHours": 29.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 100,
       "wirelessW": 0,
+      "chargeMinutes": 41,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -776,73 +436,34 @@
       "sensorDenominator": 1.56,
       "ultrawideMP": 8,
       "teleZoom": 0,
-      "selfieMP": 32,
+      "selfieMP": 16,
       "ois": true,
       "videoK": 4,
-      "videoFps": 30,
-      "dxomark": 0
+      "videoFps": 60,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 60.1,
+      "videoIndex": 81,
+      "selfieIndex": 62,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
       "diagonal": 6.83,
-      "widthPx": 1280,
-      "heightPx": 2772,
-      "refreshHz": 120,
-      "brightnessNits": 2000,
-      "ltpo": false
-    },
-    "durability": {
-      "ip": "IP69K",
-      "dropMeters": 3,
-      "glass": "Premium",
-      "label": "Gorilla Glass Victus 2, chute certifiée 3 m"
-    }
-  },
-  {
-    "id": "vivo-t5-pro",
-    "name": "vivo T5 Pro",
-    "brand": "vivo",
-    "release": "Avr. 2026",
-    "market": "Inde",
-    "sourceUrl": "https://www.vivo.com/in/products/t5-pro-5g",
-    "performance": {
-      "chipset": "Snapdragon 7s Gen 4",
-      "antutu": 1170000,
-      "ramGB": 12,
-      "storage": "UFS 3.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 9020,
-      "wiredW": 90,
-      "wirelessW": 0,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.95,
-      "ultrawideMP": 0,
-      "teleZoom": 0,
-      "selfieMP": 32,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 30,
-      "dxomark": 0
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.83,
-      "widthPx": 1260,
-      "heightPx": 2800,
+      "widthPx": 1440,
+      "heightPx": 3200,
       "refreshHz": 144,
-      "brightnessNits": 1800,
-      "ltpo": false
+      "brightnessNits": 2000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69",
       "dropMeters": 1.2,
       "glass": "Renforcé",
-      "label": "IP68 et IP69"
+      "label": "IP68 et IP69",
+      "repairabilityScore": 50,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -850,19 +471,56 @@
     "name": "iQOO Z11",
     "brand": "iQOO",
     "release": "Mai 2026",
+    "releaseYear": 2026,
     "market": "Malaisie",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.iqoo.com/my/products/z11",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.iqoo.com/my/products/z11",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Snapdragon 7s Gen 4",
       "antutu": 1170000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 12,
-      "storage": "UFS 3.1",
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 9020,
+      "activeUseHours": 32.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 90,
       "wirelessW": 0,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -874,7 +532,12 @@
       "ois": true,
       "videoK": 4,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 54.1,
+      "videoIndex": 76,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
@@ -883,13 +546,16 @@
       "heightPx": 2800,
       "refreshHz": 144,
       "brightnessNits": 1800,
-      "ltpo": false
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69",
       "dropMeters": 1.2,
       "glass": "Renforcé",
-      "label": "IP68 et IP69"
+      "label": "IP68 et IP69",
+      "repairabilityScore": 50,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -897,19 +563,56 @@
     "name": "iQOO Z11S",
     "brand": "iQOO",
     "release": "Août 2026",
+    "releaseYear": 2026,
     "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.fonearena.com/blog/489819/iqoo-z11s-price-specifications.html",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.fonearena.com/blog/489819/iqoo-z11s-price-specifications.html",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Dimensity 7500",
       "antutu": 1150000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 12,
-      "storage": "UFS 3.1",
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 10000,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 44,
       "wirelessW": 0,
+      "chargeMinutes": 75,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -921,7 +624,12 @@
       "ois": true,
       "videoK": 4,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 55.9,
+      "videoIndex": 76,
+      "selfieIndex": 53.6,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
@@ -930,107 +638,216 @@
       "heightPx": 2800,
       "refreshHz": 144,
       "brightnessNits": 2000,
-      "ltpo": false
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69",
       "dropMeters": 1.2,
       "glass": "Renforcé",
-      "label": "IP68 et IP69"
+      "label": "IP68 et IP69",
+      "repairabilityScore": 50,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "vivo-y600-turbo",
-    "name": "vivo Y600 Turbo",
-    "brand": "vivo",
-    "release": "Mai 2026",
-    "market": "Chine",
-    "sourceUrl": "https://www.gadgets360.com/mobiles/news/vivo-y600-turbo-price-launch-specifications-features-11543163",
+    "id": "motorola-razr-fold",
+    "name": "Motorola razr fold",
+    "brand": "Motorola",
+    "release": "Mars 2026",
+    "releaseYear": 2026,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Pliable",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://jp-jp.support.motorola.com/app/answers/detail/a_id/193074/~/仕様---motorola-razr-fold",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Motorola/Razr-Fold",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://jp-jp.support.motorola.com/app/answers/detail/a_id/193074/~/仕様---motorola-razr-fold",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Motorola/Razr-Fold",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "taille du capteur principal",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 80,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
-      "chipset": "Snapdragon 7s Gen 4",
-      "antutu": 1170000,
+      "chipset": "Snapdragon 8 Gen 5",
+      "antutu": 3500000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 12,
-      "storage": "UFS 3.1",
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
-      "capacityMah": 9020,
-      "wiredW": 90,
-      "wirelessW": 0,
+      "capacityMah": 6000,
+      "activeUseHours": 22.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 80,
+      "wirelessW": 50,
+      "chargeMinutes": 37,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
       "mainMP": 50,
-      "sensorDenominator": 1.95,
-      "ultrawideMP": 0,
-      "teleZoom": 0,
-      "selfieMP": 8,
-      "ois": false,
-      "videoK": 4,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": 164,
+      "dxomarkProtocol": "V6",
+      "photoIndex": 98.98,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.83,
-      "widthPx": 1260,
-      "heightPx": 2800,
+      "panel": "pOLED",
+      "diagonal": 8.1,
+      "widthPx": 2232,
+      "heightPx": 2484,
       "refreshHz": 120,
-      "brightnessNits": 2000,
-      "ltpo": false
+      "brightnessNits": 6200,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
-      "ip": "IP69",
-      "dropMeters": 1.2,
-      "glass": "Renforcé",
-      "label": "IP68, IP69 et chute 1,2 m"
+      "ip": "IP49",
+      "dropMeters": null,
+      "glass": "Certifié chutes",
+      "label": "IP48/IP49, Gorilla Glass Ceramic 3 sur l’écran externe",
+      "repairabilityScore": 61,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "honor-x9d",
-    "name": "HONOR X9d",
-    "brand": "HONOR",
-    "release": "Sept. 2025",
+    "id": "motorola-signature",
+    "name": "Motorola Signature",
+    "brand": "Motorola",
+    "release": "Janv. 2026",
+    "releaseYear": 2026,
     "market": "Global",
-    "sourceUrl": "https://www.honor.com/global/phones/honor-x9d/",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://en-in.support.motorola.com/app/answers/detail/a_id/191001/~/specifications---motorola-signature",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Motorola/Signature",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://en-in.support.motorola.com/app/answers/detail/a_id/191001/~/specifications---motorola-signature",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Motorola/Signature",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "taille du capteur principal",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 80,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
-      "chipset": "Snapdragon 6 Gen 4",
-      "antutu": 760000,
-      "ramGB": 12,
-      "storage": "UFS 3.1",
-      "cooling": "Standard"
+      "chipset": "Snapdragon 8 Gen 5",
+      "antutu": 3500000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
     },
     "battery": {
-      "capacityMah": 8300,
-      "wiredW": 66,
-      "wirelessW": 0,
+      "capacityMah": 5200,
+      "activeUseHours": 21.4,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 90,
+      "wirelessW": 50,
+      "chargeMinutes": 32,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
-      "mainMP": 108,
-      "sensorDenominator": 1.67,
-      "ultrawideMP": 5,
-      "teleZoom": 0,
-      "selfieMP": 16,
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 50,
       "ois": true,
-      "videoK": 4,
+      "videoK": 8,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": 164,
+      "dxomarkProtocol": "V6",
+      "photoIndex": 98.98,
+      "videoIndex": 92,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "AMOLED",
-      "diagonal": 6.79,
-      "widthPx": 1200,
-      "heightPx": 2640,
-      "refreshHz": 120,
-      "brightnessNits": 1800,
-      "ltpo": false
+      "diagonal": 6.8,
+      "widthPx": 1264,
+      "heightPx": 2780,
+      "refreshHz": 165,
+      "brightnessNits": 6200,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
-      "ip": "IP69K",
-      "dropMeters": 2.5,
+      "ip": "IP69",
+      "dropMeters": null,
       "glass": "Certifié chutes",
-      "label": "Chute certifiée 2,5 m et IP69K"
+      "label": "IP68/IP69, Gorilla Glass Victus 2, MIL-STD-810H",
+      "repairabilityScore": 61,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -1038,19 +855,56 @@
     "name": "OPPO A7 Pro Max",
     "brand": "OPPO",
     "release": "Août 2026",
+    "releaseYear": 2026,
     "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.notebookcheck.net/Oppo-A7-Pro-Max-goes-official-with-a-10-000mAh-battery-starting-at-325.1359623.0.html",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.notebookcheck.net/Oppo-A7-Pro-Max-goes-official-with-a-10-000mAh-battery-starting-at-325.1359623.0.html",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Snapdragon 4 Gen 5",
       "antutu": 720000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
       "ramGB": 12,
-      "storage": "UFS 3.1",
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
       "cooling": "Standard"
     },
     "battery": {
       "capacityMah": 10000,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 80,
       "wirelessW": 0,
+      "chargeMinutes": 49,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -1062,7 +916,12 @@
       "ois": false,
       "videoK": 4,
       "videoFps": 30,
-      "dxomark": 0
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 47.6,
+      "videoIndex": 72,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
@@ -1071,111 +930,16 @@
       "heightPx": 2800,
       "refreshHz": 120,
       "brightnessNits": 1800,
-      "ltpo": false
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69K",
       "dropMeters": 1.5,
       "glass": "Renforcé",
-      "label": "IP66, IP68, IP69 et IP69K"
-    }
-  },
-  {
-    "id": "huawei-pura-80-ultra",
-    "name": "HUAWEI Pura 80 Ultra",
-    "brand": "HUAWEI",
-    "release": "Juin 2025",
-    "market": "Global",
-    "sourceUrl": "https://consumer.huawei.com/en/phones/pura80-ultra/specs/",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Huawei/Pura-80-Ultra",
-    "estimatedFields": ["indice AnTuTu", "technologie de stockage"],
-    "performance": {
-      "chipset": "Kirin 9020",
-      "antutu": 1220000,
-      "ramGB": 16,
-      "storage": "Non communiqué",
-      "cooling": "Standard"
-    },
-    "battery": {
-      "capacityMah": 5170,
-      "wiredW": 100,
-      "wirelessW": 80,
-      "technology": "Lithium-ion"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1,
-      "ultrawideMP": 40,
-      "teleZoom": 9.4,
-      "selfieMP": 13,
-      "ois": true,
-      "videoK": 4,
-      "videoFps": 60,
-      "dxomark": 175
-    },
-    "screen": {
-      "panel": "OLED",
-      "diagonal": 6.8,
-      "widthPx": 1276,
-      "heightPx": 2848,
-      "refreshHz": 120,
-      "brightnessNits": 3000,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP69",
-      "dropMeters": 0,
-      "glass": "Premium",
-      "label": "IP68/IP69, Crystal Armour Kunlun Glass 2"
-    }
-  },
-  {
-    "id": "vivo-x300-pro",
-    "name": "vivo X300 Pro",
-    "brand": "vivo",
-    "release": "Oct. 2025",
-    "market": "Global",
-    "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X300-Pro",
-    "estimatedFields": ["indice AnTuTu", "pic de luminosité", "taille du capteur principal"],
-    "performance": {
-      "chipset": "Dimensity 9500",
-      "antutu": 3900000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 6510,
-      "wiredW": 90,
-      "wirelessW": 40,
-      "technology": "Lithium-ion"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.28,
-      "ultrawideMP": 50,
-      "teleZoom": 3.5,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 171
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.78,
-      "widthPx": 1260,
-      "heightPx": 2800,
-      "refreshHz": 120,
-      "brightnessNits": 4500,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP68",
-      "dropMeters": 0,
-      "glass": "Premium",
-      "label": "IP68, verre renforcé"
+      "label": "IP66, IP68, IP69 et IP69K",
+      "repairabilityScore": 55,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -1183,21 +947,64 @@
     "name": "OPPO Find X9 Ultra",
     "brand": "OPPO",
     "release": "Mai 2026",
+    "releaseYear": 2026,
     "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.oppo.com/en/smartphones/series-find-x/find-x9-ultra/specs/",
     "cameraLabUrl": "https://www.dxomark.com/smartphones/Oppo/Find-X9-Ultra",
-    "estimatedFields": ["indice AnTuTu", "pic de luminosité"],
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.oppo.com/en/smartphones/series-find-x/find-x9-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Oppo/Find-X9-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "pic de luminosité",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 80,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Snapdragon 8 Elite Gen 5",
       "antutu": 4200000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 16,
-      "storage": "UFS 4.1",
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 7050,
+      "activeUseHours": 25.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
       "wiredW": 100,
       "wirelessW": 50,
+      "chargeMinutes": 36,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
@@ -1209,7 +1016,12 @@
       "ois": true,
       "videoK": 8,
       "videoFps": 30,
-      "dxomark": 170
+      "dxomark": 170,
+      "dxomarkProtocol": "V6",
+      "photoIndex": 100,
+      "videoIndex": 92,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "AMOLED",
@@ -1218,13 +1030,844 @@
       "heightPx": 3168,
       "refreshHz": 144,
       "brightnessNits": 3600,
-      "ltpo": true
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69",
-      "dropMeters": 0,
+      "dropMeters": null,
       "glass": "Certifié chutes",
-      "label": "IP66/IP68/IP69, Gorilla Glass Victus 2, SGS 5 étoiles"
+      "label": "IP66/IP68/IP69, Gorilla Glass Victus 2, SGS 5 étoiles",
+      "repairabilityScore": 55,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "realme-narzo-power",
+    "name": "Realme Narzo Power",
+    "brand": "Realme",
+    "release": "Mars 2026",
+    "releaseYear": 2026,
+    "market": "Inde",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.realme.com/in/realme-narzo-power-5g",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.realme.com/in/realme-narzo-power-5g",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Dimensity 7400 Ultra",
+      "antutu": 980000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 8,
+      "storage": {
+        "capacityGB": 128,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 10001,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "chargeMinutes": 49,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 55.9,
+      "videoIndex": 81,
+      "selfieIndex": 62,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.8,
+      "widthPx": 1280,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 1800,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1,
+      "glass": "Renforcé",
+      "label": "IP66, IP68, IP69 et ArmorShell",
+      "repairabilityScore": 52,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "realme-p4-power",
+    "name": "Realme P4 Power",
+    "brand": "Realme",
+    "release": "Jan. 2026",
+    "releaseYear": 2026,
+    "market": "Inde",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.realme.com/global/realme-p4-power-5g",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.realme.com/global/realme-p4-power-5g",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Dimensity 7400 Ultra",
+      "antutu": 980000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 10001,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "chargeMinutes": 49,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 55.9,
+      "videoIndex": 81,
+      "selfieIndex": 62,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.8,
+      "widthPx": 1280,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 1800,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1,
+      "glass": "Renforcé",
+      "label": "IP66, IP68, IP69 et ArmorShell",
+      "repairabilityScore": 52,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "redmagic-11s-pro",
+    "name": "REDMAGIC 11S Pro",
+    "brand": "REDMAGIC",
+    "release": "Mai 2026",
+    "releaseYear": 2026,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.fonearena.com/blog/482930/redmagic-11s-pro-price-specifications.html",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.fonearena.com/blog/482930/redmagic-11s-pro-price-specifications.html",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5 Leading",
+      "antutu": 4300000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 95,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Refroidissement actif"
+    },
+    "battery": {
+      "capacityMah": 8000,
+      "activeUseHours": 28.7,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.55,
+      "ultrawideMP": 50,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 69.7,
+      "videoIndex": 92,
+      "selfieIndex": 62,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.85,
+      "widthPx": 1216,
+      "heightPx": 2688,
+      "refreshHz": 144,
+      "brightnessNits": 2000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IPX8",
+      "dropMeters": 1,
+      "glass": "Renforcé",
+      "label": "Ventilateur IPX8, pas de certification poussière complète",
+      "repairabilityScore": 48,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "redmi-k100-pro-max",
+    "name": "Redmi K100 Pro Max",
+    "brand": "Redmi",
+    "release": "Août 2026",
+    "releaseYear": 2026,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.gizmochina.com/2026/08/13/redmi-k100-pro-max-global-availability-price-specs/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.gizmochina.com/2026/08/13/redmi-k100-pro-max-global-availability-price-specs/",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9070,
+      "activeUseHours": 32.5,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "chargeMinutes": 41,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 200,
+      "sensorDenominator": 1.4,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 94.9,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 185,
+      "brightnessNits": 2500,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.5,
+      "glass": "Premium",
+      "label": "IP66, IP68 et IP69",
+      "repairabilityScore": 54,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "redmi-note-17-pro-max",
+    "name": "Redmi Note 17 Pro Max",
+    "brand": "Redmi",
+    "release": "Août 2026",
+    "releaseYear": 2026,
+    "market": "Asie",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.mi.com/global/product/redmi-note-17-pro-max-5g/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.mi.com/global/product/redmi-note-17-pro-max-5g/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 6 Gen 5",
+      "antutu": 1050000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 0,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 60.1,
+      "videoIndex": 76,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1280,
+      "heightPx": 2772,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 3,
+      "glass": "Premium",
+      "label": "Gorilla Glass Victus 2, chute certifiée 3 m",
+      "repairabilityScore": 54,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s26",
+    "name": "Samsung Galaxy S26",
+    "brand": "Samsung",
+    "release": "Févr. 2026",
+    "releaseYear": 2026,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-s26/specs/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-s26/specs/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Exynos 2600 / Snapdragon 8 Elite Gen 5",
+      "antutu": 3150000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 85,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 4300,
+      "activeUseHours": 19.8,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 45,
+      "wirelessW": 25,
+      "chargeMinutes": 58,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 3,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 68.9,
+      "videoIndex": 92,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.3,
+      "widthPx": 1080,
+      "heightPx": 2340,
+      "refreshHz": 120,
+      "brightnessNits": 3000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus",
+      "repairabilityScore": 82,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s26-fe",
+    "name": "Samsung Galaxy S26 FE",
+    "brand": "Samsung",
+    "release": "Août 2026",
+    "releaseYear": 2026,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://news.samsung.com/global/tag/galaxy-s26-fe",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://news.samsung.com/global/tag/galaxy-s26-fe",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Exynos 2500",
+      "antutu": 1950000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 82,
+      "ramGB": 8,
+      "storage": {
+        "capacityGB": 128,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 4900,
+      "activeUseHours": 21,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 45,
+      "wirelessW": 15,
+      "chargeMinutes": 65,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 3,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 68.9,
+      "videoIndex": 92,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.7,
+      "widthPx": 1080,
+      "heightPx": 2340,
+      "refreshHz": 120,
+      "brightnessNits": 1900,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus+",
+      "repairabilityScore": 82,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s26-ultra",
+    "name": "Samsung Galaxy S26 Ultra",
+    "brand": "Samsung",
+    "release": "Févr. 2026",
+    "releaseYear": 2026,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-s26-ultra/specs/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-s26-ultra/specs/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5 for Galaxy",
+      "antutu": 3460000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 89,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5000,
+      "activeUseHours": 22.4,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 60,
+      "wirelessW": 25,
+      "chargeMinutes": 50,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 200,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 96,
+      "videoIndex": 92,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1440,
+      "heightPx": 3120,
+      "refreshHz": 120,
+      "brightnessNits": 3300,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Armor nouvelle génération",
+      "repairabilityScore": 80,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "vivo-t5-pro",
+    "name": "vivo T5 Pro",
+    "brand": "vivo",
+    "release": "Avr. 2026",
+    "releaseYear": 2026,
+    "market": "Inde",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.vivo.com/in/products/t5-pro-5g",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.vivo.com/in/products/t5-pro-5g",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 4",
+      "antutu": 1170000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9020,
+      "activeUseHours": 32.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 54.1,
+      "videoIndex": 76,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 1800,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.2,
+      "glass": "Renforcé",
+      "label": "IP68 et IP69",
+      "repairabilityScore": 53,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -1232,21 +1875,65 @@
     "name": "vivo X300 Ultra",
     "brand": "vivo",
     "release": "Avr. 2026",
+    "releaseYear": 2026,
     "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
     "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X300-Ultra",
-    "estimatedFields": ["indice AnTuTu", "pic de luminosité", "taille du capteur principal"],
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.vivo.com.cn/vivo/param/x300ultra",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Vivo/X300-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "pic de luminosité",
+      "taille du capteur principal",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 77,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Snapdragon 8 Elite Gen 5",
       "antutu": 4200000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 16,
-      "storage": "UFS 4.1",
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 6600,
+      "activeUseHours": 24.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
       "wiredW": 100,
       "wirelessW": 40,
+      "chargeMinutes": 35,
+      "chargingBasis": "Estimé",
       "technology": "Lithium-ion"
     },
     "camera": {
@@ -1258,7 +1945,12 @@
       "ois": true,
       "videoK": 8,
       "videoFps": 30,
-      "dxomark": 170
+      "dxomark": 170,
+      "dxomarkProtocol": "V6",
+      "photoIndex": 100,
+      "videoIndex": 92,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "AMOLED",
@@ -1267,111 +1959,200 @@
       "heightPx": 3168,
       "refreshHz": 144,
       "brightnessNits": 4500,
-      "ltpo": true
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP68",
-      "dropMeters": 0,
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, verre renforcé"
+      "label": "IP68, verre renforcé",
+      "repairabilityScore": 53,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "google-pixel-11-pro-xl",
-    "name": "Google Pixel 11 Pro XL",
-    "brand": "Google",
-    "release": "Août 2026",
-    "market": "Global",
-    "sourceUrl": "https://store.google.com/product/pixel_11_pro_specs?hl=fr",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-11-Pro-XL",
-    "estimatedFields": ["indice AnTuTu"],
-    "performance": {
-      "chipset": "Google Tensor G6",
-      "antutu": 1850000,
-      "ramGB": 16,
-      "storage": "UFS zonée",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 5115,
-      "wiredW": 45,
-      "wirelessW": 25,
-      "technology": "Lithium-ion"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.3,
-      "ultrawideMP": 48,
-      "teleZoom": 5,
-      "selfieMP": 42,
-      "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 168
-    },
-    "screen": {
-      "panel": "OLED",
-      "diagonal": 6.8,
-      "widthPx": 1344,
-      "heightPx": 2992,
-      "refreshHz": 120,
-      "brightnessNits": 3600,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP68",
-      "dropMeters": 0,
-      "glass": "Premium",
-      "label": "IP68, Gorilla Glass Victus 2"
-    }
-  },
-  {
-    "id": "oppo-find-x8-ultra",
-    "name": "OPPO Find X8 Ultra",
-    "brand": "OPPO",
-    "release": "Avr. 2025",
+    "id": "vivo-y600-pro",
+    "name": "vivo Y600 Pro",
+    "brand": "vivo",
+    "release": "Avr. 2026",
+    "releaseYear": 2026,
     "market": "Chine",
-    "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Oppo/Find-X8-Ultra",
-    "estimatedFields": ["indice AnTuTu", "pic de luminosité"],
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.gizmochina.com/2026/04/27/vivo-y600-pro-launched-specs-price/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.gizmochina.com/2026/04/27/vivo-y600-pro-launched-specs-price/",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
-      "chipset": "Snapdragon 8 Elite",
-      "antutu": 3000000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
+      "chipset": "Dimensity 7300e",
+      "antutu": 1000000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
+      "cooling": "Standard"
     },
     "battery": {
-      "capacityMah": 6100,
-      "wiredW": 100,
-      "wirelessW": 50,
+      "capacityMah": 10200,
+      "activeUseHours": 36,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "chargeMinutes": 46,
+      "chargingBasis": "Estimé",
       "technology": "Silicium-carbone"
     },
     "camera": {
       "mainMP": 50,
-      "sensorDenominator": 1,
-      "ultrawideMP": 50,
-      "teleZoom": 6,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
       "selfieMP": 32,
       "ois": true,
       "videoK": 4,
-      "videoFps": 120,
-      "dxomark": 168
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 54.1,
+      "videoIndex": 76,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
     },
     "screen": {
       "panel": "AMOLED",
-      "diagonal": 6.82,
-      "widthPx": 1440,
-      "heightPx": 3168,
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
       "refreshHz": 120,
-      "brightnessNits": 2500,
-      "ltpo": true
+      "brightnessNits": 2000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2,
+      "glass": "Certifié chutes",
+      "label": "SGS Gold Label 5 étoiles",
+      "repairabilityScore": 53,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "vivo-y600-turbo",
+    "name": "vivo Y600 Turbo",
+    "brand": "vivo",
+    "release": "Mai 2026",
+    "releaseYear": 2026,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.gadgets360.com/mobiles/news/vivo-y600-turbo-price-launch-specifications-features-11543163",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.gadgets360.com/mobiles/news/vivo-y600-turbo-price-launch-specifications-features-11543163",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 4",
+      "antutu": 1170000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9020,
+      "activeUseHours": 32.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 8,
+      "ois": false,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 47.6,
+      "videoIndex": 72,
+      "selfieIndex": 53.6,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP69",
-      "dropMeters": 0,
-      "glass": "Premium",
-      "label": "IP68/IP69, Crystal Shield Glass"
+      "dropMeters": 1.2,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et chute 1,2 m",
+      "repairabilityScore": 53,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -1379,21 +2160,66 @@
     "name": "Apple iPhone 17 Pro",
     "brand": "Apple",
     "release": "Sept. 2025",
+    "releaseYear": 2025,
     "market": "Global",
+    "os": "iOS",
+    "osName": "iOS",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://www.apple.com/fr/iphone-17-pro/specs/",
     "cameraLabUrl": "https://www.dxomark.com/smartphones/Apple/iPhone-17-Pro",
-    "estimatedFields": ["indice AnTuTu", "capacité en mAh", "puissance filaire", "taille du capteur principal"],
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.apple.com/fr/iphone-17-pro/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Apple/iPhone-17-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "capacité en mAh",
+      "puissance filaire",
+      "taille du capteur principal",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 74,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Apple A19 Pro",
       "antutu": 2900000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 12,
-      "storage": "NVMe",
+      "storage": {
+        "capacityGB": 256,
+        "type": "NVMe",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 3988,
+      "activeUseHours": 16.4,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
       "wiredW": 40,
       "wirelessW": 25,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
       "technology": "Lithium-ion"
     },
     "camera": {
@@ -1405,7 +2231,12 @@
       "ois": true,
       "videoK": 4,
       "videoFps": 120,
-      "dxomark": 168
+      "dxomark": 168,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 84,
+      "selfieIndex": 64.1,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "OLED",
@@ -1414,209 +2245,114 @@
       "heightPx": 2622,
       "refreshHz": 120,
       "brightnessNits": 3000,
-      "ltpo": true
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP68",
-      "dropMeters": 0,
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, Ceramic Shield 2 à l’avant et à l’arrière"
+      "label": "IP68, Ceramic Shield 2 à l’avant et à l’arrière",
+      "repairabilityScore": 72,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "vivo-x200-ultra",
-    "name": "vivo X200 Ultra",
-    "brand": "vivo",
-    "release": "Avr. 2025",
-    "market": "Chine",
-    "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X200-Ultra",
-    "estimatedFields": ["indice AnTuTu", "pic de luminosité", "taille du capteur principal"],
+    "id": "apple-iphone-17-pro-max",
+    "name": "Apple iPhone 17 Pro Max",
+    "brand": "Apple",
+    "release": "Sept. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "iOS",
+    "osName": "iOS",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Apple/iPhone-17-Pro-Max",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.apple.com/iphone-17-pro/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Apple/iPhone-17-Pro-Max",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
-      "chipset": "Snapdragon 8 Elite",
-      "antutu": 3000000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
+      "chipset": "Apple A19 Pro",
+      "antutu": 2450000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 90,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "NVMe",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
-      "capacityMah": 6000,
-      "wiredW": 90,
-      "wirelessW": 40,
+      "capacityMah": 5088,
+      "activeUseHours": 24.7,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 40,
+      "wirelessW": 25,
+      "chargeMinutes": 80,
+      "chargingBasis": "Estimé",
       "technology": "Lithium-ion"
     },
     "camera": {
-      "mainMP": 50,
+      "mainMP": 48,
       "sensorDenominator": 1.28,
-      "ultrawideMP": 50,
-      "teleZoom": 3.7,
-      "selfieMP": 50,
+      "ultrawideMP": 48,
+      "teleZoom": 4,
+      "selfieMP": 18,
       "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 167
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 168,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 84,
+      "selfieIndex": 64.1,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.82,
-      "widthPx": 1440,
-      "heightPx": 3168,
-      "refreshHz": 120,
-      "brightnessNits": 4500,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP68",
-      "dropMeters": 0,
-      "glass": "Premium",
-      "label": "IP68, verre renforcé"
-    }
-  },
-  {
-    "id": "xiaomi-17-ultra",
-    "name": "Xiaomi 17 Ultra",
-    "brand": "Xiaomi",
-    "release": "Déc. 2025",
-    "market": "Global",
-    "sourceUrl": "https://www.mi.com/fr/product/xiaomi-17-ultra/specs/",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Xiaomi/17-Ultra",
-    "estimatedFields": ["indice AnTuTu"],
-    "performance": {
-      "chipset": "Snapdragon 8 Elite Gen 5",
-      "antutu": 4200000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 6000,
-      "wiredW": 90,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1,
-      "ultrawideMP": 50,
-      "teleZoom": 4.3,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 166
-    },
-    "screen": {
-      "panel": "AMOLED",
+      "panel": "OLED",
       "diagonal": 6.9,
-      "widthPx": 1200,
-      "heightPx": 2608,
+      "widthPx": 1320,
+      "heightPx": 2868,
       "refreshHz": 120,
-      "brightnessNits": 3500,
-      "ltpo": true
+      "brightnessNits": 3000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP68",
-      "dropMeters": 0,
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, Xiaomi Shield Glass 3.0"
-    }
-  },
-  {
-    "id": "motorola-razr-fold",
-    "name": "Motorola razr fold",
-    "brand": "Motorola",
-    "release": "Mars 2026",
-    "market": "Global",
-    "sourceUrl": "https://jp-jp.support.motorola.com/app/answers/detail/a_id/193074/~/仕様---motorola-razr-fold",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Motorola/Razr-Fold",
-    "estimatedFields": ["indice AnTuTu", "taille du capteur principal"],
-    "performance": {
-      "chipset": "Snapdragon 8 Gen 5",
-      "antutu": 3500000,
-      "ramGB": 12,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 6000,
-      "wiredW": 80,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.28,
-      "ultrawideMP": 50,
-      "teleZoom": 3,
-      "selfieMP": 32,
-      "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 164
-    },
-    "screen": {
-      "panel": "pOLED",
-      "diagonal": 8.1,
-      "widthPx": 2232,
-      "heightPx": 2484,
-      "refreshHz": 120,
-      "brightnessNits": 6200,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP49",
-      "dropMeters": 0,
-      "glass": "Certifié chutes",
-      "label": "IP48/IP49, Gorilla Glass Ceramic 3 sur l’écran externe"
-    }
-  },
-  {
-    "id": "motorola-signature",
-    "name": "Motorola Signature",
-    "brand": "Motorola",
-    "release": "Janv. 2026",
-    "market": "Global",
-    "sourceUrl": "https://en-in.support.motorola.com/app/answers/detail/a_id/191001/~/specifications---motorola-signature",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Motorola/Signature",
-    "estimatedFields": ["indice AnTuTu", "taille du capteur principal"],
-    "performance": {
-      "chipset": "Snapdragon 8 Gen 5",
-      "antutu": 3500000,
-      "ramGB": 16,
-      "storage": "UFS 4.1",
-      "cooling": "Chambre à vapeur"
-    },
-    "battery": {
-      "capacityMah": 5200,
-      "wiredW": 90,
-      "wirelessW": 50,
-      "technology": "Silicium-carbone"
-    },
-    "camera": {
-      "mainMP": 50,
-      "sensorDenominator": 1.28,
-      "ultrawideMP": 50,
-      "teleZoom": 3,
-      "selfieMP": 50,
-      "ois": true,
-      "videoK": 8,
-      "videoFps": 30,
-      "dxomark": 164
-    },
-    "screen": {
-      "panel": "AMOLED",
-      "diagonal": 6.8,
-      "widthPx": 1264,
-      "heightPx": 2780,
-      "refreshHz": 165,
-      "brightnessNits": 6200,
-      "ltpo": true
-    },
-    "durability": {
-      "ip": "IP69",
-      "dropMeters": 0,
-      "glass": "Certifié chutes",
-      "label": "IP68/IP69, Gorilla Glass Victus 2, MIL-STD-810H"
+      "label": "IP68, Ceramic Shield 2",
+      "repairabilityScore": 74,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
@@ -1624,21 +2360,64 @@
     "name": "Google Pixel 10 Pro XL",
     "brand": "Google",
     "release": "Août 2025",
+    "releaseYear": 2025,
     "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
     "sourceUrl": "https://store.google.com/product/pixel_10_pro_specs?hl=fr",
     "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-10-Pro-XL",
-    "estimatedFields": ["indice AnTuTu", "technologie de stockage"],
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://store.google.com/product/pixel_10_pro_specs?hl=fr",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Google/Pixel-10-Pro-XL",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "technologie de stockage",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 80,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Google Tensor G5",
       "antutu": 1450000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 16,
-      "storage": "UFS 3.1",
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
       "capacityMah": 5200,
+      "activeUseHours": 19.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
       "wiredW": 45,
       "wirelessW": 25,
+      "chargeMinutes": 47,
+      "chargingBasis": "Estimé",
       "technology": "Lithium-ion"
     },
     "camera": {
@@ -1650,7 +2429,12 @@
       "ois": true,
       "videoK": 8,
       "videoFps": 30,
-      "dxomark": 163
+      "dxomark": 163,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 98.21000000000001,
+      "videoIndex": 92,
+      "selfieIndex": 89.3,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "OLED",
@@ -1659,84 +2443,2002 @@
       "heightPx": 2992,
       "refreshHz": 120,
       "brightnessNits": 3300,
-      "ltpo": true
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP68",
-      "dropMeters": 0,
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, Gorilla Glass Victus 2"
+      "label": "IP68, Gorilla Glass Victus 2",
+      "repairabilityScore": 74,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "huawei-pura-70-ultra",
-    "name": "HUAWEI Pura 70 Ultra",
-    "brand": "HUAWEI",
-    "release": "Avr. 2024",
+    "id": "honor-magic7-pro",
+    "name": "HONOR Magic7 Pro",
+    "brand": "HONOR",
+    "release": "Janv. 2025",
+    "releaseYear": 2025,
     "market": "Global",
-    "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Huawei/Pura-70-Ultra",
-    "estimatedFields": ["indice AnTuTu", "technologie de stockage", "pic de luminosité"],
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.honor.com/global/phones/honor-magic7-pro/spec/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/HONOR/Magic7-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.honor.com/global/phones/honor-magic7-pro/spec/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/HONOR/Magic7-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
-      "chipset": "Kirin 9010",
-      "antutu": 970000,
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 2820000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 84,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5270,
+      "activeUseHours": 21.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 80,
+      "chargeMinutes": 35,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 175,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 81,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1280,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 5000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.5,
+      "glass": "Certifié chutes",
+      "label": "IP68/IP69, NanoCrystal Shield",
+      "repairabilityScore": 60,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "honor-magic8-pro",
+    "name": "HONOR Magic8 Pro",
+    "brand": "HONOR",
+    "release": "Oct. 2025",
+    "releaseYear": 2025,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.honor.com/global/news/honor-magic8-china-launch/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/HONOR/Magic8-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.honor.com/global/news/honor-magic8-china-launch/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/HONOR/Magic8-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
       "ramGB": 16,
-      "storage": "Non communiqué",
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7200,
+      "activeUseHours": 29.7,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 120,
+      "wirelessW": 80,
+      "chargeMinutes": 33,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 50,
+      "teleZoom": 3.7,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 164,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 98.98,
+      "videoIndex": 84,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.71,
+      "widthPx": 1256,
+      "heightPx": 2808,
+      "refreshHz": 120,
+      "brightnessNits": 4000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2.5,
+      "glass": "Certifié chutes",
+      "label": "SGS 5 étoiles, NanoCrystal Shield",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "honor-win",
+    "name": "HONOR Win",
+    "brand": "HONOR",
+    "release": "Déc. 2025",
+    "releaseYear": 2025,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.huaweicentral.com/honor-win-series-launched-with-10000mah-battery-built-in-cooling-fan-and-185hz-display/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.huaweicentral.com/honor-win-series-launched-with-10000mah-battery-built-in-cooling-fan-and-185hz-display/",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4250000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 95,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Refroidissement actif"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 80,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 68.9,
+      "videoIndex": 81,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1272,
+      "heightPx": 2800,
+      "refreshHz": 185,
+      "brightnessNits": 2000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 1.5,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et IP69K",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "honor-win-rt",
+    "name": "HONOR Win RT",
+    "brand": "HONOR",
+    "release": "Déc. 2025",
+    "releaseYear": 2025,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.huaweicentral.com/honor-win-rt-here-are-the-full-phone-specifications/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.huaweicentral.com/honor-win-rt-here-are-the-full-phone-specifications/",
+        "type": "Presse spécialisée"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 76,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 3200000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 95,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Refroidissement actif"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "activeUseHours": 35.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 0,
+      "chargeMinutes": 43,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 0,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 61,
+      "videoIndex": 81,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1272,
+      "heightPx": 2800,
+      "refreshHz": 185,
+      "brightnessNits": 2000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 1.5,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et IP69K",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "honor-x9d",
+    "name": "HONOR X9d",
+    "brand": "HONOR",
+    "release": "Sept. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.honor.com/global/phones/honor-x9d/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.honor.com/global/phones/honor-x9d/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 6 Gen 4",
+      "antutu": 760000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
       "cooling": "Standard"
     },
     "battery": {
-      "capacityMah": 5200,
+      "capacityMah": 8300,
+      "activeUseHours": 29.8,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 66,
+      "wirelessW": 0,
+      "chargeMinutes": 49,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 108,
+      "sensorDenominator": 1.67,
+      "ultrawideMP": 5,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 62.3,
+      "videoIndex": 76,
+      "selfieIndex": 62,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.79,
+      "widthPx": 1200,
+      "heightPx": 2640,
+      "refreshHz": 120,
+      "brightnessNits": 1800,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2.5,
+      "glass": "Certifié chutes",
+      "label": "Chute certifiée 2,5 m et IP69K",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "huawei-pura-80-ultra",
+    "name": "HUAWEI Pura 80 Ultra",
+    "brand": "HUAWEI",
+    "release": "Juin 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "EMUI / HarmonyOS",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://consumer.huawei.com/en/phones/pura80-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Huawei/Pura-80-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://consumer.huawei.com/en/phones/pura80-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Huawei/Pura-80-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "technologie de stockage",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 80,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Kirin 9020",
+      "antutu": 1220000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "Non communiqué",
+        "expandable": false
+      },
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 5170,
+      "activeUseHours": 21.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
       "wiredW": 100,
       "wirelessW": 80,
+      "chargeMinutes": 31,
+      "chargingBasis": "Estimé",
       "technology": "Lithium-ion"
     },
     "camera": {
       "mainMP": 50,
       "sensorDenominator": 1,
       "ultrawideMP": 40,
-      "teleZoom": 3.5,
+      "teleZoom": 9.4,
       "selfieMP": 13,
       "ois": true,
       "videoK": 4,
       "videoFps": 60,
-      "dxomark": 163
+      "dxomark": 175,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 81,
+      "selfieIndex": 58.8,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "OLED",
       "diagonal": 6.8,
-      "widthPx": 1260,
-      "heightPx": 2844,
+      "widthPx": 1276,
+      "heightPx": 2848,
       "refreshHz": 120,
-      "brightnessNits": 2500,
-      "ltpo": true
+      "brightnessNits": 3000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
-      "ip": "IP68",
-      "dropMeters": 0,
+      "ip": "IP69",
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, Crystal Armour Kunlun Glass"
+      "label": "IP68/IP69, Crystal Armour Kunlun Glass 2",
+      "repairabilityScore": 50,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "apple-iphone-16-pro-max",
-    "name": "Apple iPhone 16 Pro Max",
+    "id": "nothing-phone-3",
+    "name": "Nothing Phone (3)",
+    "brand": "Nothing",
+    "release": "Juil. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://nothing.tech/pages/phone-3",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://nothing.tech/pages/phone-3",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8s Gen 4",
+      "antutu": 2050000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 85,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5150,
+      "activeUseHours": 20.6,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 65,
+      "wirelessW": 15,
+      "chargeMinutes": 48,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 80.3,
+      "videoIndex": 81,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.67,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass 7i",
+      "repairabilityScore": 64,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "oneplus-13",
+    "name": "OnePlus 13",
+    "brand": "OnePlus",
+    "release": "Janv. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.oneplus.com/global/13/specs",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/OnePlus/13",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.oneplus.com/global/13/specs",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/OnePlus/13",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 2940000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 88,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6000,
+      "activeUseHours": 24.2,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "chargeMinutes": 36,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.4,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 147,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 85.89,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68/IP69, Ceramic Guard",
+      "repairabilityScore": 60,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "oneplus-15",
+    "name": "OnePlus 15",
+    "brand": "OnePlus",
+    "release": "Nov. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.oneplus.com/global/15",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.oneplus.com/global/15",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4100000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7300,
+      "activeUseHours": 30.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 120,
+      "wirelessW": 50,
+      "chargeMinutes": 33,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 50,
+      "teleZoom": 3.5,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 78.8,
+      "videoIndex": 84,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1272,
+      "heightPx": 2772,
+      "refreshHz": 165,
+      "brightnessNits": 3600,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2,
+      "glass": "Premium",
+      "label": "IP66, IP68, IP69 et IP69K",
+      "repairabilityScore": 59,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "oppo-find-x8-ultra",
+    "name": "OPPO Find X8 Ultra",
+    "brand": "OPPO",
+    "release": "Avr. 2025",
+    "releaseYear": 2025,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Oppo/Find-X8-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Oppo/Find-X8-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "pic de luminosité",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 80,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 3000000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6100,
+      "activeUseHours": 22.4,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "chargeMinutes": 33,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 50,
+      "teleZoom": 6,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 168,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 84,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 120,
+      "brightnessNits": 2500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68/IP69, Crystal Shield Glass",
+      "repairabilityScore": 55,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "oppo-find-x9-pro",
+    "name": "OPPO Find X9 Pro",
+    "brand": "OPPO",
+    "release": "Oct. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.oppo.com/uk/smartphones/series-find-x/find-x9-pro/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/OPPO/Find-X9-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.oppo.com/uk/smartphones/series-find-x/find-x9-pro/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/OPPO/Find-X9-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Dimensity 9500",
+      "antutu": 3900000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7500,
+      "activeUseHours": 30.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 80,
+      "wirelessW": 50,
+      "chargeMinutes": 41,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 166,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 84,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1272,
+      "heightPx": 2772,
+      "refreshHz": 120,
+      "brightnessNits": 3600,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.5,
+      "glass": "Premium",
+      "label": "IP66, IP68 et IP69",
+      "repairabilityScore": 55,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "redmi-k90-pro-max",
+    "name": "Redmi K90 Pro Max",
+    "brand": "Redmi",
+    "release": "Oct. 2025",
+    "releaseYear": 2025,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.mi.com/prod/redmi-k90-pro-max",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.mi.com/prod/redmi-k90-pro-max",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4050000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7560,
+      "activeUseHours": 31.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "chargeMinutes": 37,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.31,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 85.5,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 120,
+      "brightnessNits": 3500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 1.2,
+      "glass": "Premium",
+      "label": "IP68, Dragon Crystal Glass",
+      "repairabilityScore": 54,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a56",
+    "name": "Samsung Galaxy A56 5G",
+    "brand": "Samsung",
+    "release": "Mars 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-a56-5g/specs/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-a56-5g/specs/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Exynos 1580",
+      "antutu": 900000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 84,
+      "ramGB": 8,
+      "storage": {
+        "capacityGB": 128,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5000,
+      "activeUseHours": 22.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 45,
+      "wirelessW": 0,
+      "chargeMinutes": 68,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 0,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 61,
+      "videoIndex": 76,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.7,
+      "widthPx": 1080,
+      "heightPx": 2340,
+      "refreshHz": 120,
+      "brightnessNits": 1900,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP67",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP67, Gorilla Glass Victus+",
+      "repairabilityScore": 84,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "name": "Samsung Galaxy S25",
+    "brand": "Samsung",
+    "release": "Janv. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-s25/specs/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-s25/specs/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite for Galaxy",
+      "antutu": 2580000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 82,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 128,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 4000,
+      "activeUseHours": 18.4,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 25,
+      "wirelessW": 15,
+      "chargeMinutes": 72,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 3,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 68.9,
+      "videoIndex": 92,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.2,
+      "widthPx": 1080,
+      "heightPx": 2340,
+      "refreshHz": 120,
+      "brightnessNits": 2600,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus 2",
+      "repairabilityScore": 80,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25-ultra",
+    "name": "Samsung Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "release": "Janv. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-s25-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S25-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-s25-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S25-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite for Galaxy",
+      "antutu": 2780000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5000,
+      "activeUseHours": 21.7,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 45,
+      "wirelessW": 15,
+      "chargeMinutes": 63,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 200,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 146,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 85.12,
+      "videoIndex": 92,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1440,
+      "heightPx": 3120,
+      "refreshHz": 120,
+      "brightnessNits": 2600,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Armor 2",
+      "repairabilityScore": 78,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "vivo-x200-ultra",
+    "name": "vivo X200 Ultra",
+    "brand": "vivo",
+    "release": "Avr. 2025",
+    "releaseYear": 2025,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X200-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.vivo.com.cn/vivo/param/x200ultra",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Vivo/X200-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "pic de luminosité",
+      "taille du capteur principal",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 77,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 3000000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6000,
+      "activeUseHours": 22.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 90,
+      "wirelessW": 40,
+      "chargeMinutes": 35,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3.7,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 167,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 92,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, verre renforcé",
+      "repairabilityScore": 53,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "vivo-x300-pro",
+    "name": "vivo X300 Pro",
+    "brand": "vivo",
+    "release": "Oct. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X300-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.vivo.com.cn/vivo/param/x300pro",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Vivo/X300-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "pic de luminosité",
+      "taille du capteur principal",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 77,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Dimensity 9500",
+      "antutu": 3900000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6510,
+      "activeUseHours": 26.8,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 90,
+      "wirelessW": 40,
+      "chargeMinutes": 36,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3.5,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 171,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 92,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, verre renforcé",
+      "repairabilityScore": 53,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "xiaomi-15-ultra",
+    "name": "Xiaomi 15 Ultra",
+    "brand": "Xiaomi",
+    "release": "Mars 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Xiaomi/15-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.mi.com/global/product/xiaomi-15-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Xiaomi/15-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 2910000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 84,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5410,
+      "activeUseHours": 20.8,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 90,
+      "wirelessW": 80,
+      "chargeMinutes": 38,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 50,
+      "teleZoom": 4.3,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 159,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 95.13,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.73,
+      "widthPx": 1440,
+      "heightPx": 3200,
+      "refreshHz": 120,
+      "brightnessNits": 3200,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Xiaomi Shield Glass 2.0",
+      "repairabilityScore": 56,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "xiaomi-17-pro-max",
+    "name": "Xiaomi 17 Pro Max",
+    "brand": "Xiaomi",
+    "release": "Sept. 2025",
+    "releaseYear": 2025,
+    "market": "Chine",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.mi.com/global/discover/article?id=5471",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Xiaomi/17-Pro-Max",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.mi.com/global/discover/article?id=5471",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Xiaomi/17-Pro-Max",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4150000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7500,
+      "activeUseHours": 30.9,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "chargeMinutes": 37,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 159,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 95.13,
+      "videoIndex": 84,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 120,
+      "brightnessNits": 3500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 1.5,
+      "glass": "Premium",
+      "label": "IP68, Dragon Crystal Glass 3",
+      "repairabilityScore": 55,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "xiaomi-17-ultra",
+    "name": "Xiaomi 17 Ultra",
+    "brand": "Xiaomi",
+    "release": "Déc. 2025",
+    "releaseYear": 2025,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.mi.com/fr/product/xiaomi-17-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Xiaomi/17-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.mi.com/fr/product/xiaomi-17-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Xiaomi/17-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 83,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6000,
+      "activeUseHours": 24.7,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 90,
+      "wirelessW": 50,
+      "chargeMinutes": 35,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 50,
+      "teleZoom": 4.3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 166,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 92,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 120,
+      "brightnessNits": 3500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Xiaomi Shield Glass 3.0",
+      "repairabilityScore": 55,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro",
+    "name": "Apple iPhone 16 Pro",
     "brand": "Apple",
     "release": "Sept. 2024",
+    "releaseYear": 2024,
     "market": "Global",
-    "sourceUrl": "https://support.apple.com/fr-fr/121032",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro-Max",
-    "estimatedFields": ["indice AnTuTu", "capacité en mAh", "puissance filaire", "technologie de stockage", "taille du capteur principal"],
+    "os": "iOS",
+    "osName": "iOS",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://support.apple.com/fr-fr/121031",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://support.apple.com/fr-fr/121031",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Apple A18 Pro",
-      "antutu": 2100000,
+      "antutu": 2050000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 84,
       "ramGB": 8,
-      "storage": "NVMe",
+      "storage": {
+        "capacityGB": 128,
+        "type": "NVMe",
+        "expandable": false
+      },
       "cooling": "Standard"
     },
     "battery": {
-      "capacityMah": 4685,
+      "capacityMah": 3582,
+      "activeUseHours": 18.2,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
       "wiredW": 30,
       "wirelessW": 25,
+      "chargeMinutes": 100,
+      "chargingBasis": "Estimé",
       "technology": "Lithium-ion"
     },
     "camera": {
@@ -1748,7 +4450,115 @@
       "ois": true,
       "videoK": 4,
       "videoFps": 120,
-      "dxomark": 161
+      "dxomark": 157,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 93.59,
+      "videoIndex": 84,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.3,
+      "widthPx": 1206,
+      "heightPx": 2622,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Ceramic Shield",
+      "repairabilityScore": 72,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-max",
+    "name": "Apple iPhone 16 Pro Max",
+    "brand": "Apple",
+    "release": "Sept. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "iOS",
+    "osName": "iOS",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://support.apple.com/fr-fr/121032",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro-Max",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://support.apple.com/fr-fr/121032",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro-Max",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "capacité en mAh",
+      "puissance filaire",
+      "technologie de stockage",
+      "taille du capteur principal",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 71,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Apple A18 Pro",
+      "antutu": 2100000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
+      "ramGB": 8,
+      "storage": {
+        "capacityGB": 128,
+        "type": "NVMe",
+        "expandable": false
+      },
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 4685,
+      "activeUseHours": 19.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 30,
+      "wirelessW": 25,
+      "chargeMinutes": 57,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 48,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 48,
+      "teleZoom": 5,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 161,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 96.67,
+      "videoIndex": 84,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "OLED",
@@ -1757,35 +4567,171 @@
       "heightPx": 2868,
       "refreshHz": 120,
       "brightnessNits": 2000,
-      "ltpo": true
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP68",
-      "dropMeters": 0,
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, Ceramic Shield"
+      "label": "IP68, Ceramic Shield",
+      "repairabilityScore": 72,
+      "repairabilityBasis": "Estimé"
     }
   },
   {
-    "id": "google-pixel-9-pro-xl",
-    "name": "Google Pixel 9 Pro XL",
+    "id": "asus-rog-phone-9-pro",
+    "name": "ASUS ROG Phone 9 Pro",
+    "brand": "ASUS",
+    "release": "Nov. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://rog.asus.com/phones/rog-phone-9-pro/spec/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://rog.asus.com/phones/rog-phone-9-pro/spec/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 2980000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 96,
+      "ramGB": 24,
+      "storage": {
+        "capacityGB": 1024,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Refroidissement actif"
+    },
+    "battery": {
+      "capacityMah": 5800,
+      "activeUseHours": 23.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 65,
+      "wirelessW": 15,
+      "chargeMinutes": 50,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 13,
+      "teleZoom": 3,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 69.2,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1080,
+      "heightPx": 2400,
+      "refreshHz": 185,
+      "brightnessNits": 2500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus 2",
+      "repairabilityScore": 52,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "google-pixel-9-pro",
+    "name": "Google Pixel 9 Pro",
     "brand": "Google",
     "release": "Août 2024",
+    "releaseYear": 2024,
     "market": "Global",
-    "sourceUrl": "https://support.google.com/pixelphone/answer/7158570?hl=fr",
-    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro-XL",
-    "estimatedFields": ["indice AnTuTu", "technologie de stockage"],
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://store.google.com/product/pixel_9_pro_specs?hl=fr",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://store.google.com/product/pixel_9_pro_specs?hl=fr",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
     "performance": {
       "chipset": "Google Tensor G4",
-      "antutu": 1250000,
+      "antutu": 1220000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 72,
       "ramGB": 16,
-      "storage": "UFS 3.1",
+      "storage": {
+        "capacityGB": 128,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
       "cooling": "Chambre à vapeur"
     },
     "battery": {
-      "capacityMah": 5060,
-      "wiredW": 37,
-      "wirelessW": 23,
+      "capacityMah": 4700,
+      "activeUseHours": 18.6,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 27,
+      "wirelessW": 21,
+      "chargeMinutes": 85,
+      "chargingBasis": "Estimé",
       "technology": "Lithium-ion"
     },
     "camera": {
@@ -1797,7 +4743,112 @@
       "ois": true,
       "videoK": 8,
       "videoFps": 30,
-      "dxomark": 160
+      "dxomark": 163,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 98.21000000000001,
+      "videoIndex": 92,
+      "selfieIndex": 89.3,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.3,
+      "widthPx": 1280,
+      "heightPx": 2856,
+      "refreshHz": 120,
+      "brightnessNits": 3000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus 2",
+      "repairabilityScore": 74,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-xl",
+    "name": "Google Pixel 9 Pro XL",
+    "brand": "Google",
+    "release": "Août 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://support.google.com/pixelphone/answer/7158570?hl=fr",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro-XL",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://support.google.com/pixelphone/answer/7158570?hl=fr",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro-XL",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "technologie de stockage",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 80,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Google Tensor G4",
+      "antutu": 1250000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 3.1",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5060,
+      "activeUseHours": 18.6,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 37,
+      "wirelessW": 23,
+      "chargeMinutes": 52,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.31,
+      "ultrawideMP": 48,
+      "teleZoom": 5,
+      "selfieMP": 42,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 160,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 95.9,
+      "videoIndex": 92,
+      "selfieIndex": 89.3,
+      "qualityBasis": "Mesuré"
     },
     "screen": {
       "panel": "OLED",
@@ -1806,13 +4857,987 @@
       "heightPx": 2992,
       "refreshHz": 120,
       "brightnessNits": 3000,
-      "ltpo": true
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
     },
     "durability": {
       "ip": "IP68",
-      "dropMeters": 0,
+      "dropMeters": null,
       "glass": "Premium",
-      "label": "IP68, Gorilla Glass Victus 2"
+      "label": "IP68, Gorilla Glass Victus 2",
+      "repairabilityScore": 74,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "honor-magic6-pro",
+    "name": "HONOR Magic6 Pro",
+    "brand": "HONOR",
+    "release": "Févr. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.honor.com/global/phones/honor-magic6-pro/spec/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/HONOR/Magic6-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.honor.com/global/phones/honor-magic6-pro/spec/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/HONOR/Magic6-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3",
+      "antutu": 1900000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 82,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5600,
+      "activeUseHours": 23.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 80,
+      "wirelessW": 66,
+      "chargeMinutes": 42,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 50,
+      "teleZoom": 2.5,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 158,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 94.36,
+      "videoIndex": 81,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1280,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 5000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 1.5,
+      "glass": "Certifié chutes",
+      "label": "IP68, NanoCrystal Shield",
+      "repairabilityScore": 58,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "huawei-pura-70-ultra",
+    "name": "HUAWEI Pura 70 Ultra",
+    "brand": "HUAWEI",
+    "release": "Avr. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "EMUI / HarmonyOS",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Huawei/Pura-70-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Huawei/Pura-70-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "indice AnTuTu",
+      "technologie de stockage",
+      "pic de luminosité",
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 77,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Kirin 9010",
+      "antutu": 970000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "Non communiqué",
+        "expandable": false
+      },
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 5200,
+      "activeUseHours": 21.4,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 100,
+      "wirelessW": 80,
+      "chargeMinutes": 31,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 40,
+      "teleZoom": 3.5,
+      "selfieMP": 13,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 163,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 98.21000000000001,
+      "videoIndex": 81,
+      "selfieIndex": 58.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1260,
+      "heightPx": 2844,
+      "refreshHz": 120,
+      "brightnessNits": 2500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Crystal Armour Kunlun Glass",
+      "repairabilityScore": 50,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "nothing-phone-2a-plus",
+    "name": "Nothing Phone (2a) Plus",
+    "brand": "Nothing",
+    "release": "Août 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": false,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://nothing.tech/pages/phone-2a-plus",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://nothing.tech/pages/phone-2a-plus",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Dimensity 7350 Pro",
+      "antutu": 805000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 84,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 2.2",
+        "expandable": false
+      },
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 5000,
+      "activeUseHours": 20.5,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 50,
+      "wirelessW": 0,
+      "chargeMinutes": 60,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.57,
+      "ultrawideMP": 50,
+      "teleZoom": 0,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 69.5,
+      "videoIndex": 76,
+      "selfieIndex": 97.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.7,
+      "widthPx": 1080,
+      "heightPx": 2412,
+      "refreshHz": 120,
+      "brightnessNits": 1300,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP54",
+      "dropMeters": null,
+      "glass": "Renforcé",
+      "label": "IP54, Gorilla Glass 5",
+      "repairabilityScore": 62,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "oneplus-12",
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "release": "Janv. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.oneplus.com/global/12/specs",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/OnePlus/12",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.oneplus.com/global/12/specs",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/OnePlus/12",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3",
+      "antutu": 1950000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 84,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5400,
+      "activeUseHours": 21.2,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "chargeMinutes": 30,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.43,
+      "ultrawideMP": 48,
+      "teleZoom": 3,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 24,
+      "dxomark": 141,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 81.27000000000001,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP65",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP65, Gorilla Glass Victus 2",
+      "repairabilityScore": 58,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "oppo-find-x8-pro",
+    "name": "OPPO Find X8 Pro",
+    "brand": "OPPO",
+    "release": "Nov. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-find-x/find-x8-pro/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/OPPO/Find-X8-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.oppo.com/en/smartphones/series-find-x/find-x8-pro/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/OPPO/Find-X8-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Dimensity 9400",
+      "antutu": 2650000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 86,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5910,
+      "activeUseHours": 23.8,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 80,
+      "wirelessW": 50,
+      "chargeMinutes": 42,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.4,
+      "ultrawideMP": 50,
+      "teleZoom": 6,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 157,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 93.59,
+      "videoIndex": 81,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1264,
+      "heightPx": 2780,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68/IP69, Gorilla Glass Victus 2",
+      "repairabilityScore": 57,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a55",
+    "name": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "release": "Mars 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-a55-5g/specs/",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-a55-5g/specs/",
+        "type": "Constructeur"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 82,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Exynos 1480",
+      "antutu": 735000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 80,
+      "ramGB": 8,
+      "storage": {
+        "capacityGB": 128,
+        "type": "UFS 3.1",
+        "expandable": true
+      },
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 5000,
+      "activeUseHours": 21.3,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 25,
+      "wirelessW": 0,
+      "chargeMinutes": 85,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 0,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": null,
+      "dxomarkProtocol": null,
+      "photoIndex": 61,
+      "videoIndex": 76,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Estimé"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.6,
+      "widthPx": 1080,
+      "heightPx": 2340,
+      "refreshHz": 120,
+      "brightnessNits": 1000,
+      "ltpo": false,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP67",
+      "dropMeters": null,
+      "glass": "Renforcé",
+      "label": "IP67, Gorilla Glass Victus+",
+      "repairabilityScore": 82,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24",
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "release": "Janv. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-s24/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-s24/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Exynos 2400 / Snapdragon 8 Gen 3",
+      "antutu": 1680000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 78,
+      "ramGB": 8,
+      "storage": {
+        "capacityGB": 128,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 4000,
+      "activeUseHours": 17.5,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 25,
+      "wirelessW": 15,
+      "chargeMinutes": 75,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 3,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 133,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 75.11,
+      "videoIndex": 92,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.2,
+      "widthPx": 1080,
+      "heightPx": 2340,
+      "refreshHz": 120,
+      "brightnessNits": 2600,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus 2",
+      "repairabilityScore": 78,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "release": "Janv. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.samsung.com/global/galaxy/galaxy-s24-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.samsung.com/global/galaxy/galaxy-s24-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Samsung/Galaxy-S24-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3 for Galaxy",
+      "antutu": 1820000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 82,
+      "ramGB": 12,
+      "storage": {
+        "capacityGB": 256,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5000,
+      "activeUseHours": 20.1,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 45,
+      "wirelessW": 15,
+      "chargeMinutes": 65,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 200,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 12,
+      "teleZoom": 5,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 144,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 83.58,
+      "videoIndex": 92,
+      "selfieIndex": 57.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.8,
+      "widthPx": 1440,
+      "heightPx": 3120,
+      "refreshHz": 120,
+      "brightnessNits": 2600,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Armor",
+      "repairabilityScore": 75,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "vivo-x200-pro",
+    "name": "vivo X200 Pro",
+    "brand": "vivo",
+    "release": "Oct. 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.vivo.com/en/products/param/x200-pro",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/vivo/X200-Pro",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.vivo.com/en/products/param/x200-pro",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/vivo/X200-Pro",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Dimensity 9400",
+      "antutu": 2700000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 87,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6000,
+      "activeUseHours": 24.5,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 1000,
+      "wiredW": 90,
+      "wirelessW": 30,
+      "chargeMinutes": 39,
+      "chargingBasis": "Estimé",
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3.7,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 167,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 100,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68/IP69, Armor Glass",
+      "repairabilityScore": 54,
+      "repairabilityBasis": "Estimé"
+    }
+  },
+  {
+    "id": "xiaomi-14-ultra",
+    "name": "Xiaomi 14 Ultra",
+    "brand": "Xiaomi",
+    "release": "Mars 2024",
+    "releaseYear": 2024,
+    "market": "Global",
+    "os": "Android",
+    "osName": "Android",
+    "formFactor": "Classique",
+    "connectivity": {
+      "esim": true,
+      "network": "5G",
+      "dualSim": true
+    },
+    "sourceUrl": "https://www.mi.com/global/product/xiaomi-14-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Xiaomi/14-Ultra",
+    "sources": [
+      {
+        "label": "Fiche technique",
+        "url": "https://www.mi.com/global/product/xiaomi-14-ultra/specs/",
+        "type": "Constructeur"
+      },
+      {
+        "label": "Mesure caméra",
+        "url": "https://www.dxomark.com/smartphones/Xiaomi/14-Ultra",
+        "type": "Laboratoire"
+      }
+    ],
+    "estimatedFields": [
+      "autonomie active",
+      "temps de charge 0–100 %",
+      "cycles batterie",
+      "performance soutenue"
+    ],
+    "dataQuality": {
+      "confidence": 86,
+      "verifiedAt": "2026-09-02"
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3",
+      "antutu": 1980000,
+      "benchmarkVersion": "AnTuTu V11 ou équivalent normalisé",
+      "sustainedPercent": 80,
+      "ramGB": 16,
+      "storage": {
+        "capacityGB": 512,
+        "type": "UFS 4.0",
+        "expandable": false
+      },
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5000,
+      "activeUseHours": 18.4,
+      "autonomyBasis": "Estimé",
+      "cyclesTo80": 800,
+      "wiredW": 90,
+      "wirelessW": 80,
+      "chargeMinutes": 35,
+      "chargingBasis": "Estimé",
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 149,
+      "dxomarkProtocol": "V5",
+      "photoIndex": 87.43,
+      "videoIndex": 92,
+      "selfieIndex": 78.8,
+      "qualityBasis": "Mesuré"
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.73,
+      "widthPx": 1440,
+      "heightPx": 3200,
+      "refreshHz": 120,
+      "brightnessNits": 3000,
+      "ltpo": true,
+      "brightnessBasis": "Déclaré"
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": null,
+      "glass": "Premium",
+      "label": "IP68, Xiaomi Shield Glass",
+      "repairabilityScore": 55,
+      "repairabilityBasis": "Estimé"
     }
   }
 ]
