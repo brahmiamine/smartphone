@@ -1,0 +1,28 @@
+{
+  "name": "Smartphone Score",
+  "short_name": "SmartScore",
+  "description": "Comparez et classez les smartphones selon vos propres priorités.",
+  "id": "/smartphone/",
+  "start_url": "/smartphone/",
+  "scope": "/smartphone/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f7fb",
+  "theme_color": "#151d31",
+  "lang": "fr",
+  "categories": ["utilities", "shopping", "productivity"],
+  "icons": [
+    {
+      "src": "/smartphone/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/smartphone/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
