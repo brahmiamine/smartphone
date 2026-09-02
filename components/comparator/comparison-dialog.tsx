@@ -19,7 +19,7 @@ export function ComparisonDialog({ phones, open, onOpenChange }: { phones: Ranke
               <tr><th>Capacité</th>{phones.map((phone) => <td key={phone.id}>{phone.battery.capacityMah.toLocaleString("fr-FR")} mAh<small>{phone.battery.wiredW} W</small></td>)}</tr>
               <tr><th>Caméra</th>{phones.map((phone) => <td key={phone.id}>{phone.camera.mainMP} Mpx · {phone.camera.teleZoom || 0}×<small>{phone.camera.ois ? <><Check /> OIS</> : <><X /> Sans OIS</>}</small></td>)}</tr>
               <tr><th>Écran</th>{phones.map((phone) => <td key={phone.id}>{phone.screen.diagonal}″ · {phone.screen.refreshHz} Hz<small>{phone.screen.brightnessNits} nits</small></td>)}</tr>
-              <tr><th>Résistance</th>{phones.map((phone) => <td key={phone.id}>{phone.durability.ip}<small>Chute {phone.durability.dropMeters} m</small></td>)}</tr>
+              <tr><th>Résistance</th>{phones.map((phone) => <td key={phone.id}>{phone.durability.ip}<small>{phone.durability.dropMeters ? `Chute ${phone.durability.dropMeters} m` : "Distance de chute non documentée"}</small></td>)}</tr>
             </tbody>
           </table>
         </div>

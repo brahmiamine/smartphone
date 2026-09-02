@@ -1079,5 +1079,740 @@
       "glass": "Renforcé",
       "label": "IP66, IP68, IP69 et IP69K"
     }
+  },
+  {
+    "id": "huawei-pura-80-ultra",
+    "name": "HUAWEI Pura 80 Ultra",
+    "brand": "HUAWEI",
+    "release": "Juin 2025",
+    "market": "Global",
+    "sourceUrl": "https://consumer.huawei.com/en/phones/pura80-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Huawei/Pura-80-Ultra",
+    "estimatedFields": ["indice AnTuTu", "technologie de stockage"],
+    "performance": {
+      "chipset": "Kirin 9020",
+      "antutu": 1220000,
+      "ramGB": 16,
+      "storage": "Non communiqué",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 5170,
+      "wiredW": 100,
+      "wirelessW": 80,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 40,
+      "teleZoom": 9.4,
+      "selfieMP": 13,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 175
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1276,
+      "heightPx": 2848,
+      "refreshHz": 120,
+      "brightnessNits": 3000,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68/IP69, Crystal Armour Kunlun Glass 2"
+    }
+  },
+  {
+    "id": "vivo-x300-pro",
+    "name": "vivo X300 Pro",
+    "brand": "vivo",
+    "release": "Oct. 2025",
+    "market": "Global",
+    "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X300-Pro",
+    "estimatedFields": ["indice AnTuTu", "pic de luminosité", "taille du capteur principal"],
+    "performance": {
+      "chipset": "Dimensity 9500",
+      "antutu": 3900000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6510,
+      "wiredW": 90,
+      "wirelessW": 40,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3.5,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 171
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, verre renforcé"
+    }
+  },
+  {
+    "id": "oppo-find-x9-ultra",
+    "name": "OPPO Find X9 Ultra",
+    "brand": "OPPO",
+    "release": "Mai 2026",
+    "market": "Global",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-find-x/find-x9-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Oppo/Find-X9-Ultra",
+    "estimatedFields": ["indice AnTuTu", "pic de luminosité"],
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7050,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 200,
+      "sensorDenominator": 1.12,
+      "ultrawideMP": 50,
+      "teleZoom": 10,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 170
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 144,
+      "brightnessNits": 3600,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 0,
+      "glass": "Certifié chutes",
+      "label": "IP66/IP68/IP69, Gorilla Glass Victus 2, SGS 5 étoiles"
+    }
+  },
+  {
+    "id": "vivo-x300-ultra",
+    "name": "vivo X300 Ultra",
+    "brand": "vivo",
+    "release": "Avr. 2026",
+    "market": "Global",
+    "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X300-Ultra",
+    "estimatedFields": ["indice AnTuTu", "pic de luminosité", "taille du capteur principal"],
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6600,
+      "wiredW": 100,
+      "wirelessW": 40,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 200,
+      "sensorDenominator": 1.12,
+      "ultrawideMP": 50,
+      "teleZoom": 3.7,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 170
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 144,
+      "brightnessNits": 4500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, verre renforcé"
+    }
+  },
+  {
+    "id": "google-pixel-11-pro-xl",
+    "name": "Google Pixel 11 Pro XL",
+    "brand": "Google",
+    "release": "Août 2026",
+    "market": "Global",
+    "sourceUrl": "https://store.google.com/product/pixel_11_pro_specs?hl=fr",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-11-Pro-XL",
+    "estimatedFields": ["indice AnTuTu"],
+    "performance": {
+      "chipset": "Google Tensor G6",
+      "antutu": 1850000,
+      "ramGB": 16,
+      "storage": "UFS zonée",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5115,
+      "wiredW": 45,
+      "wirelessW": 25,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 48,
+      "teleZoom": 5,
+      "selfieMP": 42,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 168
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1344,
+      "heightPx": 2992,
+      "refreshHz": 120,
+      "brightnessNits": 3600,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus 2"
+    }
+  },
+  {
+    "id": "oppo-find-x8-ultra",
+    "name": "OPPO Find X8 Ultra",
+    "brand": "OPPO",
+    "release": "Avr. 2025",
+    "market": "Chine",
+    "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Oppo/Find-X8-Ultra",
+    "estimatedFields": ["indice AnTuTu", "pic de luminosité"],
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 3000000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6100,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 50,
+      "teleZoom": 6,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 168
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 120,
+      "brightnessNits": 2500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68/IP69, Crystal Shield Glass"
+    }
+  },
+  {
+    "id": "apple-iphone-17-pro",
+    "name": "Apple iPhone 17 Pro",
+    "brand": "Apple",
+    "release": "Sept. 2025",
+    "market": "Global",
+    "sourceUrl": "https://www.apple.com/fr/iphone-17-pro/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Apple/iPhone-17-Pro",
+    "estimatedFields": ["indice AnTuTu", "capacité en mAh", "puissance filaire", "taille du capteur principal"],
+    "performance": {
+      "chipset": "Apple A19 Pro",
+      "antutu": 2900000,
+      "ramGB": 12,
+      "storage": "NVMe",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 3988,
+      "wiredW": 40,
+      "wirelessW": 25,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 48,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 48,
+      "teleZoom": 4,
+      "selfieMP": 18,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 168
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.3,
+      "widthPx": 1206,
+      "heightPx": 2622,
+      "refreshHz": 120,
+      "brightnessNits": 3000,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, Ceramic Shield 2 à l’avant et à l’arrière"
+    }
+  },
+  {
+    "id": "vivo-x200-ultra",
+    "name": "vivo X200 Ultra",
+    "brand": "vivo",
+    "release": "Avr. 2025",
+    "market": "Chine",
+    "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Vivo/X200-Ultra",
+    "estimatedFields": ["indice AnTuTu", "pic de luminosité", "taille du capteur principal"],
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 3000000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6000,
+      "wiredW": 90,
+      "wirelessW": 40,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3.7,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 167
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.82,
+      "widthPx": 1440,
+      "heightPx": 3168,
+      "refreshHz": 120,
+      "brightnessNits": 4500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, verre renforcé"
+    }
+  },
+  {
+    "id": "xiaomi-17-ultra",
+    "name": "Xiaomi 17 Ultra",
+    "brand": "Xiaomi",
+    "release": "Déc. 2025",
+    "market": "Global",
+    "sourceUrl": "https://www.mi.com/fr/product/xiaomi-17-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Xiaomi/17-Ultra",
+    "estimatedFields": ["indice AnTuTu"],
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6000,
+      "wiredW": 90,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 50,
+      "teleZoom": 4.3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 166
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 120,
+      "brightnessNits": 3500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, Xiaomi Shield Glass 3.0"
+    }
+  },
+  {
+    "id": "motorola-razr-fold",
+    "name": "Motorola razr fold",
+    "brand": "Motorola",
+    "release": "Mars 2026",
+    "market": "Global",
+    "sourceUrl": "https://jp-jp.support.motorola.com/app/answers/detail/a_id/193074/~/仕様---motorola-razr-fold",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Motorola/Razr-Fold",
+    "estimatedFields": ["indice AnTuTu", "taille du capteur principal"],
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 5",
+      "antutu": 3500000,
+      "ramGB": 12,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 6000,
+      "wiredW": 80,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 164
+    },
+    "screen": {
+      "panel": "pOLED",
+      "diagonal": 8.1,
+      "widthPx": 2232,
+      "heightPx": 2484,
+      "refreshHz": 120,
+      "brightnessNits": 6200,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP49",
+      "dropMeters": 0,
+      "glass": "Certifié chutes",
+      "label": "IP48/IP49, Gorilla Glass Ceramic 3 sur l’écran externe"
+    }
+  },
+  {
+    "id": "motorola-signature",
+    "name": "Motorola Signature",
+    "brand": "Motorola",
+    "release": "Janv. 2026",
+    "market": "Global",
+    "sourceUrl": "https://en-in.support.motorola.com/app/answers/detail/a_id/191001/~/specifications---motorola-signature",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Motorola/Signature",
+    "estimatedFields": ["indice AnTuTu", "taille du capteur principal"],
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 5",
+      "antutu": 3500000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5200,
+      "wiredW": 90,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 164
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.8,
+      "widthPx": 1264,
+      "heightPx": 2780,
+      "refreshHz": 165,
+      "brightnessNits": 6200,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 0,
+      "glass": "Certifié chutes",
+      "label": "IP68/IP69, Gorilla Glass Victus 2, MIL-STD-810H"
+    }
+  },
+  {
+    "id": "google-pixel-10-pro-xl",
+    "name": "Google Pixel 10 Pro XL",
+    "brand": "Google",
+    "release": "Août 2025",
+    "market": "Global",
+    "sourceUrl": "https://store.google.com/product/pixel_10_pro_specs?hl=fr",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-10-Pro-XL",
+    "estimatedFields": ["indice AnTuTu", "technologie de stockage"],
+    "performance": {
+      "chipset": "Google Tensor G5",
+      "antutu": 1450000,
+      "ramGB": 16,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5200,
+      "wiredW": 45,
+      "wirelessW": 25,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 48,
+      "teleZoom": 5,
+      "selfieMP": 42,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 163
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1344,
+      "heightPx": 2992,
+      "refreshHz": 120,
+      "brightnessNits": 3300,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus 2"
+    }
+  },
+  {
+    "id": "huawei-pura-70-ultra",
+    "name": "HUAWEI Pura 70 Ultra",
+    "brand": "HUAWEI",
+    "release": "Avr. 2024",
+    "market": "Global",
+    "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Huawei/Pura-70-Ultra",
+    "estimatedFields": ["indice AnTuTu", "technologie de stockage", "pic de luminosité"],
+    "performance": {
+      "chipset": "Kirin 9010",
+      "antutu": 970000,
+      "ramGB": 16,
+      "storage": "Non communiqué",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 5200,
+      "wiredW": 100,
+      "wirelessW": 80,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1,
+      "ultrawideMP": 40,
+      "teleZoom": 3.5,
+      "selfieMP": 13,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 163
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1260,
+      "heightPx": 2844,
+      "refreshHz": 120,
+      "brightnessNits": 2500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, Crystal Armour Kunlun Glass"
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-max",
+    "name": "Apple iPhone 16 Pro Max",
+    "brand": "Apple",
+    "release": "Sept. 2024",
+    "market": "Global",
+    "sourceUrl": "https://support.apple.com/fr-fr/121032",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Apple/iPhone-16-Pro-Max",
+    "estimatedFields": ["indice AnTuTu", "capacité en mAh", "puissance filaire", "technologie de stockage", "taille du capteur principal"],
+    "performance": {
+      "chipset": "Apple A18 Pro",
+      "antutu": 2100000,
+      "ramGB": 8,
+      "storage": "NVMe",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 4685,
+      "wiredW": 30,
+      "wirelessW": 25,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 48,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 48,
+      "teleZoom": 5,
+      "selfieMP": 12,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 161
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.9,
+      "widthPx": 1320,
+      "heightPx": 2868,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, Ceramic Shield"
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-xl",
+    "name": "Google Pixel 9 Pro XL",
+    "brand": "Google",
+    "release": "Août 2024",
+    "market": "Global",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/7158570?hl=fr",
+    "cameraLabUrl": "https://www.dxomark.com/smartphones/Google/Pixel-9-Pro-XL",
+    "estimatedFields": ["indice AnTuTu", "technologie de stockage"],
+    "performance": {
+      "chipset": "Google Tensor G4",
+      "antutu": 1250000,
+      "ramGB": 16,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 5060,
+      "wiredW": 37,
+      "wirelessW": 23,
+      "technology": "Lithium-ion"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.31,
+      "ultrawideMP": 48,
+      "teleZoom": 5,
+      "selfieMP": 42,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 160
+    },
+    "screen": {
+      "panel": "OLED",
+      "diagonal": 6.8,
+      "widthPx": 1344,
+      "heightPx": 2992,
+      "refreshHz": 120,
+      "brightnessNits": 3000,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 0,
+      "glass": "Premium",
+      "label": "IP68, Gorilla Glass Victus 2"
+    }
   }
 ]

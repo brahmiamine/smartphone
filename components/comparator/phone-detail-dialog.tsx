@@ -1,4 +1,4 @@
-import { BatteryCharging, Camera, Cpu, ExternalLink, MemoryStick, MonitorSmartphone, ShieldCheck } from "lucide-react";
+import { BatteryCharging, Camera, Cpu, ExternalLink, Info, MemoryStick, MonitorSmartphone, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { CRITERIA, criterionKeys, formatScore } from "@/lib/config";
@@ -25,7 +25,11 @@ export function PhoneDetailDialog({ phone, onClose }: { phone: RankedPhone | nul
             <div><MonitorSmartphone /><span>Écran</span><strong>{phone.screen.diagonal}″ {phone.screen.panel}</strong><small>{phone.screen.widthPx} × {phone.screen.heightPx} · {phone.screen.refreshHz} Hz · {phone.screen.brightnessNits} nits</small></div>
             <div><ShieldCheck /><span>Résistance</span><strong>{phone.durability.ip}</strong><small>{phone.durability.label || `Chute documentée : ${phone.durability.dropMeters} m`}</small></div>
           </div>
-          {phone.sourceUrl && <DialogFooter className="detail-actions"><Button variant="outline" asChild><a href={phone.sourceUrl} target="_blank" rel="noreferrer"><ExternalLink /> Consulter la source</a></Button></DialogFooter>}
+          {phone.estimatedFields?.length ? <p className="data-note"><Info /> <span><strong>Données mixtes :</strong> valeurs estimées pour {phone.estimatedFields.join(", ")} lorsque le fabricant ne les publie pas.</span></p> : null}
+          {(phone.sourceUrl || phone.cameraLabUrl) && <DialogFooter className="detail-actions">
+            {phone.sourceUrl && <Button variant="outline" asChild><a href={phone.sourceUrl} target="_blank" rel="noreferrer"><ExternalLink /> Fiche constructeur</a></Button>}
+            {phone.cameraLabUrl && <Button variant="outline" asChild><a href={phone.cameraLabUrl} target="_blank" rel="noreferrer"><ExternalLink /> Test caméra DXOMARK</a></Button>}
+          </DialogFooter>}
         </>}
       </DialogContent>
     </Dialog>

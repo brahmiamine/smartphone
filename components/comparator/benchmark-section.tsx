@@ -21,10 +21,11 @@ export function BenchmarkSection() {
   ], "repère caméra");
   const screen = scoreItems([
     ...scales.screen.refreshRate.map(([value, score]) => [`${value} Hz`, score] as [string, number]),
-    ["1 800 nits", 80], ["2 500 nits", 91], ["AMOLED", scales.screen.panelScores.AMOLED],
+    ["1 800 nits", 80], ["2 500 nits", 91],
+    ...Object.entries(scales.screen.panelScores).map(([panel, score]) => [panel, score] as [string, number]),
   ], "repère écran");
   const durability = scoreItems([
-    ["IP65", scales.durability.ipScores.IP65], ["IP68", scales.durability.ipScores.IP68], ["IP69", scales.durability.ipScores.IP69], ["IP69K", scales.durability.ipScores.IP69K],
+    ["IP49", scales.durability.ipScores.IP49], ["IP65", scales.durability.ipScores.IP65], ["IP68", scales.durability.ipScores.IP68], ["IP69", scales.durability.ipScores.IP69], ["IP69K", scales.durability.ipScores.IP69K],
     ...scales.durability.dropMeters.slice(1).map(([value, score]) => [`Chute ${value} m`, score] as [string, number]),
     ["Verre Premium", scales.durability.glassScores.Premium], ["Verre certifié chutes", scales.durability.glassScores["Certifié chutes"]],
   ], "repère résistance");

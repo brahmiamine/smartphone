@@ -1,7 +1,7 @@
-export type StorageType = "UFS 2.2" | "UFS 3.1" | "UFS 4.0" | "UFS 4.1";
+export type StorageType = "UFS 2.2" | "UFS 3.1" | "UFS 4.0" | "UFS 4.1" | "UFS zonée" | "NVMe" | "Non communiqué";
 export type CoolingType = "Standard" | "Chambre à vapeur" | "Refroidissement actif";
 export type BatteryTech = "Lithium-ion" | "Silicium-carbone";
-export type IpRating = "Aucune" | "IP65" | "IP68" | "IP69" | "IP69K" | "IPX8";
+export type IpRating = "Aucune" | "IP49" | "IP65" | "IP68" | "IP69" | "IP69K" | "IPX8";
 export type GlassTier = "Standard" | "Renforcé" | "Premium" | "Certifié chutes";
 
 export type Weights = {
@@ -22,10 +22,12 @@ export type Phone = {
   release: string;
   market: string;
   sourceUrl?: string;
+  cameraLabUrl?: string;
+  estimatedFields?: string[];
   performance: { chipset: string; antutu: number; ramGB: number; storage: StorageType; cooling: CoolingType };
   battery: { capacityMah: number; wiredW: number; wirelessW: number; technology: BatteryTech };
   camera: { mainMP: number; sensorDenominator: number; ultrawideMP: number; teleZoom: number; selfieMP: number; ois: boolean; videoK: number; videoFps: number; dxomark: number };
-  screen: { panel: "LCD" | "OLED" | "AMOLED"; diagonal: number; widthPx: number; heightPx: number; refreshHz: number; brightnessNits: number; ltpo: boolean };
+  screen: { panel: "LCD" | "OLED" | "AMOLED" | "pOLED"; diagonal: number; widthPx: number; heightPx: number; refreshHz: number; brightnessNits: number; ltpo: boolean };
   durability: { ip: IpRating; dropMeters: number; glass: GlassTier; label: string };
 };
 

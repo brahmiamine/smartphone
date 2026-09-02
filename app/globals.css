@@ -226,6 +226,8 @@ button, input { font: inherit; }
 .spec-grid strong { font-size: 13px; margin: 2px 0; }
 .spec-grid small { color: #747e91; font-size: 10px; line-height: 1.4; }
 .detail-actions { border-top: 1px solid #e5e8ef; padding-top: 16px; }
+.data-note { display: flex; align-items: flex-start; gap: 8px; margin: 0; padding: 11px 13px; border-radius: 12px; background: #f5f2ff; color: #5d5577; font-size: 11px; line-height: 1.5; }
+.data-note svg { width: 15px; height: 15px; flex: 0 0 auto; color: #6e4cff; }
 
 .comparison-dialog { max-width: min(1180px, calc(100vw - 24px)); max-height: calc(100vh - 28px); overflow: hidden; border-radius: 22px; padding: 24px; grid-template-rows: auto minmax(0, 1fr); }
 .comparison-scroll { overflow: auto; border: 1px solid #e2e6ee; border-radius: 14px; }
