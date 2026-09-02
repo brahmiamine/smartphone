@@ -1,4 +1,4 @@
-const CACHE = "smartscore-v1";
+const CACHE = "smartscore-v2";
 const BASE = "/smartphone";
 const SHELL = [
   `${BASE}/`,

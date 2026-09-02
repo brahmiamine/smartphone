@@ -1,0 +1,1083 @@
+[
+  {
+    "id": "honor-magic8-pro",
+    "name": "HONOR Magic8 Pro",
+    "brand": "HONOR",
+    "release": "Oct. 2025",
+    "market": "Chine",
+    "sourceUrl": "https://www.honor.com/global/news/honor-magic8-china-launch/",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7200,
+      "wiredW": 120,
+      "wirelessW": 80,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.3,
+      "ultrawideMP": 50,
+      "teleZoom": 3.7,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 164
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.71,
+      "widthPx": 1256,
+      "heightPx": 2808,
+      "refreshHz": 120,
+      "brightnessNits": 4000,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2.5,
+      "glass": "Certifié chutes",
+      "label": "SGS 5 étoiles, NanoCrystal Shield"
+    }
+  },
+  {
+    "id": "honor-win",
+    "name": "HONOR Win",
+    "brand": "HONOR",
+    "release": "Déc. 2025",
+    "market": "Chine",
+    "sourceUrl": "https://www.huaweicentral.com/honor-win-series-launched-with-10000mah-battery-built-in-cooling-fan-and-185hz-display/",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4250000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Refroidissement actif"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "wiredW": 100,
+      "wirelessW": 80,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1272,
+      "heightPx": 2800,
+      "refreshHz": 185,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 1.5,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et IP69K"
+    }
+  },
+  {
+    "id": "redmi-k100-pro-max",
+    "name": "Redmi K100 Pro Max",
+    "brand": "Redmi",
+    "release": "Août 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.gizmochina.com/2026/08/13/redmi-k100-pro-max-global-availability-price-specs/",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4200000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9070,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 200,
+      "sensorDenominator": 1.4,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 185,
+      "brightnessNits": 2500,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.5,
+      "glass": "Premium",
+      "label": "IP66, IP68 et IP69"
+    }
+  },
+  {
+    "id": "xiaomi-17-pro-max",
+    "name": "Xiaomi 17 Pro Max",
+    "brand": "Xiaomi",
+    "release": "Sept. 2025",
+    "market": "Chine",
+    "sourceUrl": "https://www.mi.com/global/discover/article?id=5471",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4150000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7500,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 159
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 120,
+      "brightnessNits": 3500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 1.5,
+      "glass": "Premium",
+      "label": "IP68, Dragon Crystal Glass 3"
+    }
+  },
+  {
+    "id": "oppo-find-x9-pro",
+    "name": "OPPO Find X9 Pro",
+    "brand": "OPPO",
+    "release": "Oct. 2025",
+    "market": "Global",
+    "sourceUrl": "https://www.oppo.com/uk/smartphones/series-find-x/find-x9-pro/",
+    "performance": {
+      "chipset": "Dimensity 9500",
+      "antutu": 3900000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7500,
+      "wiredW": 80,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.28,
+      "ultrawideMP": 50,
+      "teleZoom": 3,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 166
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1272,
+      "heightPx": 2772,
+      "refreshHz": 120,
+      "brightnessNits": 3600,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.5,
+      "glass": "Premium",
+      "label": "IP66, IP68 et IP69"
+    }
+  },
+  {
+    "id": "oneplus-15",
+    "name": "OnePlus 15",
+    "brand": "OnePlus",
+    "release": "Nov. 2025",
+    "market": "Global",
+    "sourceUrl": "https://www.oneplus.com/global/15",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4100000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7300,
+      "wiredW": 120,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 50,
+      "teleZoom": 3.5,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 120,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1272,
+      "heightPx": 2772,
+      "refreshHz": 165,
+      "brightnessNits": 3600,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2,
+      "glass": "Premium",
+      "label": "IP66, IP68, IP69 et IP69K"
+    }
+  },
+  {
+    "id": "redmi-k90-pro-max",
+    "name": "Redmi K90 Pro Max",
+    "brand": "Redmi",
+    "release": "Oct. 2025",
+    "market": "Chine",
+    "sourceUrl": "https://www.mi.com/prod/redmi-k90-pro-max",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "antutu": 4050000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 7560,
+      "wiredW": 100,
+      "wirelessW": 50,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.31,
+      "ultrawideMP": 50,
+      "teleZoom": 5,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.9,
+      "widthPx": 1200,
+      "heightPx": 2608,
+      "refreshHz": 120,
+      "brightnessNits": 3500,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP68",
+      "dropMeters": 1.2,
+      "glass": "Premium",
+      "label": "IP68, Dragon Crystal Glass"
+    }
+  },
+  {
+    "id": "honor-win-rt",
+    "name": "HONOR Win RT",
+    "brand": "HONOR",
+    "release": "Déc. 2025",
+    "market": "Chine",
+    "sourceUrl": "https://www.huaweicentral.com/honor-win-rt-here-are-the-full-phone-specifications/",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "antutu": 3200000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Refroidissement actif"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "wiredW": 100,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 12,
+      "teleZoom": 0,
+      "selfieMP": 50,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1272,
+      "heightPx": 2800,
+      "refreshHz": 185,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 1.5,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et IP69K"
+    }
+  },
+  {
+    "id": "iqoo-neo11-ultra",
+    "name": "iQOO Neo11 Ultra",
+    "brand": "iQOO",
+    "release": "Août 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.fonearena.com/blog/489811/iqoo-neo11-ultra-price-specifications.html",
+    "performance": {
+      "chipset": "Dimensity 9500M",
+      "antutu": 3950000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9100,
+      "wiredW": 100,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1440,
+      "heightPx": 3200,
+      "refreshHz": 144,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.2,
+      "glass": "Renforcé",
+      "label": "IP68 et IP69"
+    }
+  },
+  {
+    "id": "redmagic-11s-pro",
+    "name": "REDMAGIC 11S Pro",
+    "brand": "REDMAGIC",
+    "release": "Mai 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.fonearena.com/blog/482930/redmagic-11s-pro-price-specifications.html",
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5 Leading",
+      "antutu": 4300000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Refroidissement actif"
+    },
+    "battery": {
+      "capacityMah": 8000,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.55,
+      "ultrawideMP": 50,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 8,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.85,
+      "widthPx": 1216,
+      "heightPx": 2688,
+      "refreshHz": 144,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IPX8",
+      "dropMeters": 1,
+      "glass": "Renforcé",
+      "label": "Ventilateur IPX8, pas de certification poussière complète"
+    }
+  },
+  {
+    "id": "honor-power-2",
+    "name": "HONOR Power 2",
+    "brand": "HONOR",
+    "release": "Jan. 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.huaweicentral.com/honor-power-2-launched-with-10080mah-battery-dimensity-8500-elite/",
+    "performance": {
+      "chipset": "Dimensity 8500 Elite",
+      "antutu": 2400000,
+      "ramGB": 12,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 10080,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 5,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.79,
+      "widthPx": 1200,
+      "heightPx": 2640,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 1.5,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et IP69K"
+    }
+  },
+  {
+    "id": "honor-win-turbo",
+    "name": "HONOR Win Turbo",
+    "brand": "HONOR",
+    "release": "Mai 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.gizmochina.com/2026/05/29/honor-win-turbo-10000mah-battery-launch-specs-price/",
+    "performance": {
+      "chipset": "Dimensity 8500 Elite",
+      "antutu": 2400000,
+      "ramGB": 16,
+      "storage": "UFS 4.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 5,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.79,
+      "widthPx": 1200,
+      "heightPx": 2640,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 1.5,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et IP69K"
+    }
+  },
+  {
+    "id": "realme-p4-power",
+    "name": "Realme P4 Power",
+    "brand": "Realme",
+    "release": "Jan. 2026",
+    "market": "Inde",
+    "sourceUrl": "https://www.realme.com/global/realme-p4-power-5g",
+    "performance": {
+      "chipset": "Dimensity 7400 Ultra",
+      "antutu": 980000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 10001,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.8,
+      "widthPx": 1280,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 1800,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1,
+      "glass": "Renforcé",
+      "label": "IP66, IP68, IP69 et ArmorShell"
+    }
+  },
+  {
+    "id": "realme-narzo-power",
+    "name": "Realme Narzo Power",
+    "brand": "Realme",
+    "release": "Mars 2026",
+    "market": "Inde",
+    "sourceUrl": "https://www.realme.com/in/realme-narzo-power-5g",
+    "performance": {
+      "chipset": "Dimensity 7400 Ultra",
+      "antutu": 980000,
+      "ramGB": 8,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 10001,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 60,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.8,
+      "widthPx": 1280,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 1800,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1,
+      "glass": "Renforcé",
+      "label": "IP66, IP68, IP69 et ArmorShell"
+    }
+  },
+  {
+    "id": "honor-x80-pro-max",
+    "name": "HONOR X80 Pro Max",
+    "brand": "HONOR",
+    "release": "Juin 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.huaweicentral.com/honor-x80-pro-max-launched/",
+    "performance": {
+      "chipset": "Snapdragon 6 Gen 5",
+      "antutu": 1050000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 11000,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 8,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.8,
+      "widthPx": 1280,
+      "heightPx": 2788,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": true
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 3,
+      "glass": "Certifié chutes",
+      "label": "SGS 5 étoiles, chute certifiée jusqu’à 3 m"
+    }
+  },
+  {
+    "id": "vivo-y600-pro",
+    "name": "vivo Y600 Pro",
+    "brand": "vivo",
+    "release": "Avr. 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.gizmochina.com/2026/04/27/vivo-y600-pro-launched-specs-price/",
+    "performance": {
+      "chipset": "Dimensity 7300e",
+      "antutu": 1000000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 10200,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2,
+      "glass": "Certifié chutes",
+      "label": "SGS Gold Label 5 étoiles"
+    }
+  },
+  {
+    "id": "redmi-note-17-pro-max",
+    "name": "Redmi Note 17 Pro Max",
+    "brand": "Redmi",
+    "release": "Août 2026",
+    "market": "Asie",
+    "sourceUrl": "https://www.mi.com/global/product/redmi-note-17-pro-max-5g/",
+    "performance": {
+      "chipset": "Snapdragon 6 Gen 5",
+      "antutu": 1050000,
+      "ramGB": 12,
+      "storage": "UFS 4.0",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "wiredW": 100,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.56,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1280,
+      "heightPx": 2772,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 3,
+      "glass": "Premium",
+      "label": "Gorilla Glass Victus 2, chute certifiée 3 m"
+    }
+  },
+  {
+    "id": "vivo-t5-pro",
+    "name": "vivo T5 Pro",
+    "brand": "vivo",
+    "release": "Avr. 2026",
+    "market": "Inde",
+    "sourceUrl": "https://www.vivo.com/in/products/t5-pro-5g",
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 4",
+      "antutu": 1170000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9020,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 1800,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.2,
+      "glass": "Renforcé",
+      "label": "IP68 et IP69"
+    }
+  },
+  {
+    "id": "iqoo-z11",
+    "name": "iQOO Z11",
+    "brand": "iQOO",
+    "release": "Mai 2026",
+    "market": "Malaisie",
+    "sourceUrl": "https://www.iqoo.com/my/products/z11",
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 4",
+      "antutu": 1170000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9020,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 32,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 1800,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.2,
+      "glass": "Renforcé",
+      "label": "IP68 et IP69"
+    }
+  },
+  {
+    "id": "iqoo-z11s",
+    "name": "iQOO Z11S",
+    "brand": "iQOO",
+    "release": "Août 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.fonearena.com/blog/489819/iqoo-z11s-price-specifications.html",
+    "performance": {
+      "chipset": "Dimensity 7500",
+      "antutu": 1150000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "wiredW": 44,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 8,
+      "teleZoom": 0,
+      "selfieMP": 8,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 144,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.2,
+      "glass": "Renforcé",
+      "label": "IP68 et IP69"
+    }
+  },
+  {
+    "id": "vivo-y600-turbo",
+    "name": "vivo Y600 Turbo",
+    "brand": "vivo",
+    "release": "Mai 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.gadgets360.com/mobiles/news/vivo-y600-turbo-price-launch-specifications-features-11543163",
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 4",
+      "antutu": 1170000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Chambre à vapeur"
+    },
+    "battery": {
+      "capacityMah": 9020,
+      "wiredW": 90,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 8,
+      "ois": false,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.83,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 2000,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69",
+      "dropMeters": 1.2,
+      "glass": "Renforcé",
+      "label": "IP68, IP69 et chute 1,2 m"
+    }
+  },
+  {
+    "id": "honor-x9d",
+    "name": "HONOR X9d",
+    "brand": "HONOR",
+    "release": "Sept. 2025",
+    "market": "Global",
+    "sourceUrl": "https://www.honor.com/global/phones/honor-x9d/",
+    "performance": {
+      "chipset": "Snapdragon 6 Gen 4",
+      "antutu": 760000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 8300,
+      "wiredW": 66,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 108,
+      "sensorDenominator": 1.67,
+      "ultrawideMP": 5,
+      "teleZoom": 0,
+      "selfieMP": 16,
+      "ois": true,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.79,
+      "widthPx": 1200,
+      "heightPx": 2640,
+      "refreshHz": 120,
+      "brightnessNits": 1800,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 2.5,
+      "glass": "Certifié chutes",
+      "label": "Chute certifiée 2,5 m et IP69K"
+    }
+  },
+  {
+    "id": "oppo-a7-pro-max",
+    "name": "OPPO A7 Pro Max",
+    "brand": "OPPO",
+    "release": "Août 2026",
+    "market": "Chine",
+    "sourceUrl": "https://www.notebookcheck.net/Oppo-A7-Pro-Max-goes-official-with-a-10-000mAh-battery-starting-at-325.1359623.0.html",
+    "performance": {
+      "chipset": "Snapdragon 4 Gen 5",
+      "antutu": 720000,
+      "ramGB": 12,
+      "storage": "UFS 3.1",
+      "cooling": "Standard"
+    },
+    "battery": {
+      "capacityMah": 10000,
+      "wiredW": 80,
+      "wirelessW": 0,
+      "technology": "Silicium-carbone"
+    },
+    "camera": {
+      "mainMP": 50,
+      "sensorDenominator": 1.95,
+      "ultrawideMP": 0,
+      "teleZoom": 0,
+      "selfieMP": 50,
+      "ois": false,
+      "videoK": 4,
+      "videoFps": 30,
+      "dxomark": 0
+    },
+    "screen": {
+      "panel": "AMOLED",
+      "diagonal": 6.78,
+      "widthPx": 1260,
+      "heightPx": 2800,
+      "refreshHz": 120,
+      "brightnessNits": 1800,
+      "ltpo": false
+    },
+    "durability": {
+      "ip": "IP69K",
+      "dropMeters": 1.5,
+      "glass": "Renforcé",
+      "label": "IP66, IP68, IP69 et IP69K"
+    }
+  }
+]
